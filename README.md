@@ -70,14 +70,21 @@ Write a factory that takes the corpus and returns an object with `answer(questio
 # my_rag.py
 from evalkit.systems import Response
 
+
 class MyRAG:
     def __init__(self, docs):
         self.docs = docs
 
     def answer(self, question):
         ...  # call your retriever and generator here
-        return Response(answer="...", retrieved=["doc-id", ...], contexts=["text shown to the model", ...],
-                        cited=["doc-id"], abstained=False)
+        return Response(
+            answer="...",
+            retrieved=["doc-id", ...],
+            contexts=["text shown to the model", ...],
+            cited=["doc-id"],
+            abstained=False,
+        )
+
 
 def make(docs):
     return MyRAG(docs)
