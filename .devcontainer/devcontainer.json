@@ -1,0 +1,11 @@
+{
+  "name": "llm-eval-harness",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install -e '.[dev]' && evalkit leaderboard",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "charliermarsh.ruff"],
+      "settings": { "python.testing.pytestArgs": ["tests"], "python.testing.pytestEnabled": true }
+    }
+  }
+}

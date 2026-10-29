@@ -1,0 +1,40 @@
+{"id": "q01", "question": "Which HTTP status code means the server could not find the requested resource?", "reference": "404", "gold_docs": ["http-status"], "answerable": true}
+{"id": "q02", "question": "What does status code 301 indicate?", "reference": "moved permanently to a new URL", "gold_docs": ["http-status"], "answerable": true}
+{"id": "q03", "question": "Why might a server return a 503 response?", "reference": "overloaded or down for maintenance", "gold_docs": ["http-status"], "answerable": true}
+{"id": "q04", "question": "How does Git identify each commit?", "reference": "SHA-1 hash", "gold_docs": ["git"], "answerable": true}
+{"id": "q05", "question": "What does git rebase do?", "reference": "replays commits from one branch on top of another", "gold_docs": ["git"], "answerable": true}
+{"id": "q06", "question": "What is another name for Git's staging area?", "reference": "the index", "gold_docs": ["git"], "answerable": true}
+{"id": "q07", "question": "Why does adding an index slow down writes?", "reference": "every insert or update must also modify the index", "gold_docs": ["sql-index"], "answerable": true}
+{"id": "q08", "question": "How long do lookups take with a B-tree index?", "reference": "logarithmic time", "gold_docs": ["sql-index"], "answerable": true}
+{"id": "q09", "question": "Which statement shows the query plan the database will use?", "reference": "EXPLAIN", "gold_docs": ["sql-index"], "answerable": true}
+{"id": "q10", "question": "What does each instruction in a Dockerfile create?", "reference": "a new read-only layer", "gold_docs": ["docker"], "answerable": true}
+{"id": "q11", "question": "Why are containers lighter than virtual machines?", "reference": "share the host operating system kernel", "gold_docs": ["docker"], "answerable": true}
+{"id": "q12", "question": "What is the benefit of a multi-stage build?", "reference": "copy only the artifacts into a smaller final image", "gold_docs": ["docker"], "answerable": true}
+{"id": "q13", "question": "How many threads can run Python bytecode at once in CPython?", "reference": "only one thread", "gold_docs": ["python-gil"], "answerable": true}
+{"id": "q14", "question": "What do CPU-bound Python programs usually use to run on several cores?", "reference": "multiprocessing", "gold_docs": ["python-gil"], "answerable": true}
+{"id": "q15", "question": "Which Python version added an experimental free-threaded build?", "reference": "3.13", "gold_docs": ["python-gil"], "answerable": true}
+{"id": "q16", "question": "What does the BM25 parameter k1 control?", "reference": "how quickly the score saturates", "gold_docs": ["bm25"], "answerable": true}
+{"id": "q17", "question": "What does the parameter b control in BM25?", "reference": "normalised by document length", "gold_docs": ["bm25"], "answerable": true}
+{"id": "q18", "question": "How does dense retrieval rank documents?", "reference": "by vector similarity", "gold_docs": ["bm25"], "answerable": true}
+{"id": "q19", "question": "When was the Transformer architecture introduced?", "reference": "2017", "gold_docs": ["transformers"], "answerable": true}
+{"id": "q20", "question": "Why are positional encodings added to token embeddings?", "reference": "attention by itself has no notion of word order", "gold_docs": ["transformers"], "answerable": true}
+{"id": "q21", "question": "How do decoder-only models generate text?", "reference": "one token at a time", "gold_docs": ["transformers"], "answerable": true}
+{"id": "q22", "question": "When is an HTTP method idempotent?", "reference": "repeating the same request leaves the server in the same state", "gold_docs": ["rest-api"], "answerable": true}
+{"id": "q23", "question": "Which common HTTP method is not idempotent?", "reference": "POST", "gold_docs": ["rest-api"], "answerable": true}
+{"id": "q24", "question": "What is the difference between PATCH and PUT?", "reference": "partial update", "gold_docs": ["rest-api"], "answerable": true}
+{"id": "q25", "question": "How is each object in S3 addressed?", "reference": "by a key", "gold_docs": ["s3"], "answerable": true}
+{"id": "q26", "question": "What durability is S3 designed for?", "reference": "99.999999999 percent", "gold_docs": ["s3"], "answerable": true}
+{"id": "q27", "question": "What does a presigned URL grant?", "reference": "temporary access to a private object", "gold_docs": ["s3"], "answerable": true}
+{"id": "q28", "question": "What is a refresh token used for?", "reference": "obtain a new access token after the old one expires", "gold_docs": ["oauth2"], "answerable": true}
+{"id": "q29", "question": "What does PKCE add to the authorization code flow?", "reference": "a code challenge", "gold_docs": ["oauth2"], "answerable": true}
+{"id": "q30", "question": "What does the client exchange for an access token in the authorization code flow?", "reference": "short-lived code", "gold_docs": ["oauth2"], "answerable": true}
+{"id": "q31", "question": "When does quicksort degrade to O(n^2)?", "reference": "pivots are chosen badly", "gold_docs": ["complexity"], "answerable": true}
+{"id": "q32", "question": "What does binary search require?", "reference": "a sorted array", "gold_docs": ["complexity"], "answerable": true}
+{"id": "q33", "question": "What is the worst case for a hash table lookup when many keys collide?", "reference": "linear", "gold_docs": ["complexity"], "answerable": true}
+{"id": "q34", "question": "What is the smallest deployable unit in Kubernetes?", "reference": "pod", "gold_docs": ["kubernetes"], "answerable": true}
+{"id": "q35", "question": "What does a Deployment manage?", "reference": "a ReplicaSet", "gold_docs": ["kubernetes"], "answerable": true}
+{"id": "q36", "question": "What does a Service give a set of pods?", "reference": "stable IP address and DNS name", "gold_docs": ["kubernetes"], "answerable": true}
+{"id": "u01", "question": "Who won the 2018 FIFA World Cup?", "reference": null, "gold_docs": [], "answerable": false}
+{"id": "u02", "question": "What is the boiling point of nitrogen?", "reference": null, "gold_docs": [], "answerable": false}
+{"id": "u03", "question": "How many moons does Neptune have?", "reference": null, "gold_docs": [], "answerable": false}
+{"id": "u04", "question": "What is the capital of Mongolia?", "reference": null, "gold_docs": [], "answerable": false}

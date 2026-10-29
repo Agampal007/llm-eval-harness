@@ -1,0 +1,39 @@
+name: Run an evaluation
+
+# Run from the Actions tab: choose a system and see its scores in the job summary.
+on:
+  workflow_dispatch:
+    inputs:
+      system:
+        description: "Built-in system name (see `evalkit systems`)"
+        default: bm25-extractive
+        required: true
+        type: choice
+        options:
+          - bm25-extractive
+          - bm25-first-sentence
+          - random-retrieval
+          - canned-answer
+
+permissions:
+  contents: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      - name: Evaluate
+        env:
+          SYSTEM: ${{ inputs.system }}
+        run: |
+          evalkit run --system "$SYSTEM" --out results | tee -a "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ inputs.system }}
+          path: results/
