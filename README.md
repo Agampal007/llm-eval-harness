@@ -21,6 +21,10 @@ evalkit leaderboard          # all built-in systems side by side
 evalkit run --system bm25-extractive
 evalkit gate                 # exit code 1 if scores fell below baselines/bm25-extractive.json
 pytest
+
+# the harder SQuAD v2.0 sample (see below)
+evalkit leaderboard --corpus datasets/squad-v2-sample/corpus.jsonl --golden datasets/squad-v2-sample/golden.jsonl
+python scripts/abstention_sweep.py
 ```
 
 ## What it measures
@@ -57,6 +61,46 @@ What each row tells you:
 - `bm25-extractive` misses two questions (`q17`, `q23`) because its sentence selector picks a related sentence from the right document. These are real failures and the baseline keeps them.
 
 Per-metric intervals for `bm25-extractive` (`evalkit run`): `contains_ref` is 0.944 (95% CI 0.86-1.00, n = 36).
+
+## A harder test: SQuAD v2.0
+
+The bundled set is too easy to rank systems, so the repo also ships a sample of the
+[SQuAD v2.0](https://rajpurkar.github.io/SQuAD-explorer/) dev set: 500 questions over 423
+Wikipedia paragraphs from 12 articles. Half the questions are **unanswerable**: crowd workers wrote
+them to look answerable from a paragraph that does not contain the answer. Details, licence and the
+rebuild script are in [`datasets/squad-v2-sample`](datasets/squad-v2-sample/README.md).
+
+| System | hit@1 | mrr | contains_ref | faithfulness | citation_precision | abstain_accuracy |
+| --- | --- | --- | --- | --- | --- | --- |
+| `bm25-extractive` | 0.812 | 0.861 | 0.732 | 1.000 | 0.849 | 0.522 |
+| `bm25-first-sentence` | 0.812 | 0.861 | 0.264 | 1.000 | 0.833 | 0.522 |
+| `random-retrieval` (control) | 0.000 | 0.002 | 0.000 | 1.000 | 0.000 | 0.500 |
+| `canned-answer` (control) | 0.812 | 0.861 | 0.000 | 0.101 | 0.812 | 0.500 |
+
+95% intervals for `bm25-extractive` (n = 250 answerable): hit@1 0.76-0.86, `contains_ref`
+0.68-0.78; `abstain_accuracy` 0.47-0.56 (n = 500).
+
+- **Retrieval is no longer trivial.** hit@1 falls from 1.000 to 0.812 because neighbouring
+  paragraphs of one article share vocabulary.
+- **The controls still separate.** Random retrieval scores near zero and the canned answer's
+  faithfulness drops to 0.101, so the metrics behave on real data, not just on the toy set.
+- **The abstainer is close to a coin flip.** `bm25-extractive` abstains when its top document
+  covers too little of the question's vocabulary. That reached 1.000 on the bundled set but 0.522
+  here.
+
+`python scripts/abstention_sweep.py` asks whether a better threshold would fix it:
+
+| Coverage threshold | Unanswerable caught | Answerable wrongly abstained | abstain_accuracy |
+| --- | --- | --- | --- |
+| 0.4 (default) | 0.088 | 0.044 | 0.522 |
+| 0.6 | 0.288 | 0.204 | 0.542 |
+| 0.7 | 0.480 | 0.400 | 0.540 |
+| 0.9 | 0.820 | 0.728 | 0.546 |
+
+No threshold does better than 0.548. Catching more unanswerable questions costs almost as many
+wrong abstentions, because SQuAD v2's unanswerable questions reuse the paragraph's words on
+purpose. Telling them apart needs a model that reads the passage, which is what the next step adds:
+an LLM-backed system evaluated on this sample.
 
 ## Regression gate
 
@@ -99,7 +143,7 @@ Corpus rows are `{"id", "title", "text"}`; golden rows are `{"id", "question", "
 
 ## Limitations
 
-- **The bundled data is small and easy.** 12 documents on distinct topics make retrieval trivial (hit@1 is 1.000), so it cannot rank good retrievers against each other. It is there to exercise the harness; use `--corpus` and `--golden` for a real evaluation.
+- **The bundled data is small and easy.** 12 documents on distinct topics make retrieval trivial (hit@1 is 1.000), so it cannot rank good retrievers against each other. It is there to exercise the harness; use the SQuAD v2.0 sample or your own `--corpus` and `--golden` for a real evaluation.
 - **The abstention threshold was chosen after looking at this golden set**, so `abstain_accuracy = 1.000` is optimistic, and with only four unanswerable questions it is a weak estimate.
 - **Answer metrics are lexical.** `contains_ref` needs the reference tokens to appear in order, so a correct paraphrase scores 0. Faithfulness is word overlap with the context, not entailment. An LLM judge would handle both better, at the cost of determinism and API keys.
 - **The reference answers were written by the author** from the same documents the systems read.
@@ -113,11 +157,14 @@ src/evalkit/
   systems.py   BM25 index, built-in systems, module:factory plug-in loader
   metrics.py   per-example scoring and bootstrap aggregation
   runner.py    run a system, build Markdown reports
+  squad.py     SQuAD v2.0 -> corpus and golden set
   gate.py      baseline and regression check
   cli.py       evalkit run | leaderboard | gate | baseline | systems
   data/        bundled corpus and golden set
 baselines/     stored scores used by the CI gate
-tests/         27 tests, including a golden-set consistency check
+datasets/      SQuAD v2.0 sample (CC BY-SA 4.0)
+scripts/       sample builder, abstention threshold sweep
+tests/         31 tests, including consistency checks for both golden sets
 ```
 
 ## License
