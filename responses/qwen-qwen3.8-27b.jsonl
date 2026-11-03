@@ -1,0 +1,540 @@
+{"key": "d4b3333a27a0a2fc42aef46fda73d7049480b33ac09558a71a3ab53a3cc4eeb4", "response": "ANSWER: 404\nSOURCE: http-status"}
+{"key": "6dc1abf4aa79d1b4185f4e60961034fe680b6322446c7b2f48aabd6c4e0812e6", "response": "ANSWER: a resource has moved permanently to a new URL\nSOURCE: http-status"}
+{"key": "8092e7edc29e71c1c6fd2c80c0cc24316413a26c2cd32344ea7b73cbbb66df8a", "response": "ANSWER: server is temporarily unavailable\nSOURCE: http-status"}
+{"key": "2576c8164291da52658ce94e2bc5e61be81d13a93af8120f7117acf1a1cdcbfe", "response": "ANSWER: SHA-1 hash\nSOURCE: git"}
+{"key": "eaec035e3ba77e07185546f854a96f27ead8e4e7accd4db170b0a63ca387169a", "response": "ANSWER: replays commits from one branch on top of another\nSOURCE: git"}
+{"key": "2220650cf5527bf363b6787a456b33027239f0c91155a9b2ce04de3331aeab07", "response": "ANSWER: index\nSOURCE: git"}
+{"key": "ebbfcf6c2204a01febe98bd16009f6e22504c4d3e81a184c689f8c2b648762ba", "response": "ANSWER: every insert or update must also modify the index\nSOURCE: sql-index"}
+{"key": "9e73cd0dff438c51ca6896c2ba29e76eacdb4d5efb414a4c4b7df53d8cbe7c00", "response": "ANSWER: logarithmic time\nSOURCE: sql-index"}
+{"key": "2e2edb798fd1666a5e77bb718fec849355e2dfb8f2ce8db897bd7940d3061225", "response": "ANSWER: EXPLAIN statement\nSOURCE: sql-index"}
+{"key": "170fc55d030cb387d571933a67a946993c83517f04f119dd25e771122f220438", "response": "ANSWER: a new read-only layer\nSOURCE: docker"}
+{"key": "504e491389e99a72065b8808b58c5ac9f4e436b77f3560afbfd2222b30005cf3", "response": "ANSWER: share the host operating system kernel\nSOURCE: docker"}
+{"key": "f51cad58a585183ed80be29f3d938229632d80cfb1163f3a8880f0a83002a157", "response": "ANSWER: copy only the artifacts into a smaller final image\nSOURCE: docker"}
+{"key": "dbfeb8d12cdeb066aa2f3ac70bb986f455da0e23ef31c4a7d88359d36c4a0ee4", "response": "ANSWER: one thread\nSOURCE: python-gil"}
+{"key": "396933069cf751b9ab133929f15c524232c13cc2447a5cd447001be22d559c7c", "response": "ANSWER: multiprocessing\nSOURCE: python-gil"}
+{"key": "9adcfd0f6cfeb735245ca30e8fd85462d06525fef54f475a93297ef083b13ffc", "response": "ANSWER: Python 3.13\nSOURCE: python-gil"}
+{"key": "e5beda511452d0c7b9e8545bd18b796cc1e81c2d27697b0d5a108e3e881026ee", "response": "ANSWER: how quickly the score saturates as a term appears more often in a document\nSOURCE: bm25"}
+{"key": "9779d97af50115a516a5a15ee39595dcac766cd0f1b099adaffbf51e71877f13", "response": "ANSWER: how strongly the score is normalised by document length\nSOURCE: bm25"}
+{"key": "eb28c84d6d3a05d91857a77712478be72a102436852c99791aff46e4da3e3ca9", "response": "ANSWER: by vector similarity\nSOURCE: bm25"}
+{"key": "da801738547e5726ba5571a2e1fe4f7f15f7aa477adf1567d6b456c432086b26", "response": "ANSWER: 2017\nSOURCE: transformers"}
+{"key": "2f7aedcd3799db92e2cdbfa53002b317de8d2b7d10812f99cb633e19a299b26e", "response": "ANSWER: attention by itself has no notion of word order\nSOURCE: transformers"}
+{"key": "86b8e610d06d87bb4d053bde5748d3200f70b1df50bd36d0eede2551a4f2351b", "response": "ANSWER: one token at a time\nSOURCE: transformers"}
+{"key": "7d2d5f91ad737335b03b909d48917a79a838101387314b8c6c5a24db01437017", "response": "ANSWER: repeating the same request leaves the server in the same state as sending it once\nSOURCE: rest-api"}
+{"key": "9b32dde83fcaaf5a5e80fc5edc696d8485004a9650ae4603630148563dae4373", "response": "ANSWER: POST\nSOURCE: rest-api"}
+{"key": "9ff134c35074239c189c4b7938486e21ffd8620a38b670b547e4350e5f06e8e3", "response": "ANSWER: PATCH applies a partial update to a resource, whereas PUT replaces the whole resource\nSOURCE: rest-api"}
+{"key": "ba37313c3f2f1d2784724eb35008e68574d833b82342e3ff5e2fa1e6735109ae", "response": "ANSWER: by a key\nSOURCE: s3"}
+{"key": "ac4ba2b7e018e4604860581486bc952d51d773185e21477e40260b78ef3bf199", "response": "ANSWER: eleven nines\nSOURCE: s3"}
+{"key": "ec36e47a56b72a4a1819661ca516e4f1874d1cff2e50bddc6122969daea90b6b", "response": "ANSWER: temporary access to a private object\nSOURCE: s3"}
+{"key": "6e6866046debe5f0b983d1c4816f01a4f649de95222e0cb92048df4af0f5bdc4", "response": "ANSWER: obtain a new access token\nSOURCE: oauth2"}
+{"key": "d365107919ce36520800919cef2af8f2d3679aace1426dd94d6f8181b850ae40", "response": "ANSWER: a code challenge\nSOURCE: oauth2"}
+{"key": "3b5e2b837255d789fd1f8c8df0199904c9944a95799aa4f193c275f219ab60c0", "response": "ANSWER: a short-lived code\nSOURCE: oauth2"}
+{"key": "d0511d613fdbd90339c46441278594006bbb8d50eb520ebae4dead5e76838770", "response": "ANSWER: when pivots are chosen badly\nSOURCE: complexity"}
+{"key": "45b10fb787bd86c8fe3f26b1efc01b02d4d238c4960dfd3d5058df753dea1c53", "response": "ANSWER: a sorted array\nSOURCE: complexity"}
+{"key": "84ea16bbb3e4df455eb3c3cf6e7565f340f53e77e87e99e81ee077c2c2f3dc92", "response": "ANSWER: linear\nSOURCE: complexity"}
+{"key": "b3e679c947111584aed67b79091f2ef14e9be64255c6ff943377a93fedb0aa5d", "response": "ANSWER: Kubernetes pod\nSOURCE: kubernetes"}
+{"key": "aaf107ad7d57bde7346cbc754b016870d253d520eaa8026d539dff9f515e6204", "response": "ANSWER: a ReplicaSet\nSOURCE: kubernetes"}
+{"key": "0450dc6898f4ae9e720d83ab89298fed8ca33ccbe634a2152724548daaf5357d", "response": "ANSWER: a stable IP address and DNS name\nSOURCE: kubernetes"}
+{"key": "463ca48f22e94c02b5979ffa2f724f87a5f85906b79e3c9bebbc7a227970df5b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "907833402448c965f08c1085831ca113be32863bd8ea1fdb8121f4afba77374f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "d07d15458a215427e40ddd36fb736b6d04ff289efd48b8857f32ef2874365a7e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9f5b0f38b0a39f6d8282e232366efafb47f665b0089c9ff2d042012b7c1aded5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "cfadfd2400a4fe8d35b820e9a68e10a1ff1214bff4d77116aad5e893779a71bd", "response": "ANSWER: atmospheric engine\nSOURCE: steam-engine-p1"}
+{"key": "88a85afc016467c88ad9f60921902d542c594b663d8240d9bd8e60bd48e35a83", "response": "ANSWER: south Wales\nSOURCE: steam-engine-p2"}
+{"key": "e7e9899c513eee74fb1cc598f678e23b7aadc69cb9e90b37e2aeb16486c4dbe6", "response": "ANSWER: marine triple expansion engines\nSOURCE: steam-engine-p4"}
+{"key": "13fc15674d4ed3b0bea75d19b3215751dd83672c6137c9f13e5e210a3044b9c8", "response": "ANSWER: 1883\nSOURCE: steam-engine-p7"}
+{"key": "7e57114286f10254f41ca813ca0135458d9715f63551f21a9de84e71162f0543", "response": "ANSWER: Industrial Revolution\nSOURCE: steam-engine-p7"}
+{"key": "abc7ca119de2b1ec0129d9c76906207039396900cf5af35948694b5b4326507c", "response": "ANSWER: electric power\nSOURCE: steam-engine-p10"}
+{"key": "40939342726acedcf7bdbefa386093d0696ec2c510dbe4ffd7e2c66f9f065ee4", "response": "ANSWER: one rotation\nSOURCE: steam-engine-p14"}
+{"key": "521f2bebce8c173da32336f6a85d4aebb5e1d61d6b1e7eb0a4d7ade613bf5209", "response": "ANSWER: Quasiturbine\nSOURCE: steam-engine-p15"}
+{"key": "174ac0971c3359f92fa3a80d65c56f8684a835bc7fa6e3b39f8052446e1bc256", "response": "ANSWER: additional port\nSOURCE: steam-engine-p15"}
+{"key": "f6d313d9bb0c5b476790f798e0975dc5784036b021b447b89921bbf11c225da7", "response": "ANSWER: water\nSOURCE: steam-engine-p17"}
+{"key": "601c893c3406a8f5980bc88f9e79873a014ad3a3b6d3159429061a386358a62f", "response": "ANSWER: factories\nSOURCE: steam-engine-p19"}
+{"key": "fbc8851c12247a6d5a235fbbd7f79fdd543ec8fb030e0c4c4a6c2fbd2cc528a8", "response": "ANSWER: 90%\nSOURCE: steam-engine-p22"}
+{"key": "5ed697f0388b962172e790f6ff3b74a4557d8aacfed00b42c4df9bb5bf3c6231", "response": "ANSWER: steam turbines\nSOURCE: steam-engine-p10"}
+{"key": "6de57808c597d6e274a77528899465eaeb61d0271f7dbdda767a6052b0ff130d", "response": "ANSWER: surface condensers\nSOURCE: steam-engine-p29"}
+{"key": "baa485316f3272f4e1c10058e9854e498ac62989bd9baa97278ed56701a57773", "response": "ANSWER: automobile radiator\nSOURCE: steam-engine-p29"}
+{"key": "ee10fd79bf7e52576b1bb41e44402c44cebfd5cfbbc238bbb7ddd43cdc22015c", "response": "ANSWER: wet\nSOURCE: steam-engine-p29"}
+{"key": "13a0cf25e632587d7a45590a238e7728ef0a6ef764ae1dbf7fe50223913fe445", "response": "ANSWER: cotton spinning\nSOURCE: steam-engine-p30"}
+{"key": "51f7f823a1da59668e7b512c1f714de46953916dd461810637141e76d44d72fb", "response": "ANSWER: 1880\nSOURCE: steam-engine-p31"}
+{"key": "1eb0fd7e5b2061402b445b37a89315ee2a7d6aff90ed0bc9e145794400265b47", "response": "ANSWER: shortening the cutoff\nSOURCE: steam-engine-p32"}
+{"key": "291c5182d6a94c85e165827ee1b69ee6645c83f92bdfd17f48c97f8553dacd93", "response": "ANSWER: Spanish\nSOURCE: steam-engine-p33"}
+{"key": "c0bf647abab9ed1a43b4865ece0348eb46b0192a7acfcc4e723b7bccadad8d9e", "response": "ANSWER: turbine casing\nSOURCE: steam-engine-p34"}
+{"key": "d53762a22c46a66a4db6151a1166b56d64c84fd34f18374a408dc32f530e4481", "response": "ANSWER: steam turbine plant\nSOURCE: steam-engine-p35"}
+{"key": "64e1693d1b5cdcde3d6e683bdff935749348f3bfcc9b73ae372404c7ae5005b4", "response": "ANSWER: pollution\nSOURCE: steam-engine-p35"}
+{"key": "15f4178dd2f747c5f610d7837f22527360959cf7bea8f532f7a23836daa4924c", "response": "ANSWER: Wankel engine\nSOURCE: steam-engine-p36"}
+{"key": "658d0b0dc965ce2f67564499c304bcf04034be2c192681f1154d7b8a709481db", "response": "ANSWER: thermal expansion\nSOURCE: steam-engine-p36"}
+{"key": "4face3d1e098979545e44f8ff7804d37e21d7f5f7cd9a230fc94a94ed7256145", "response": "ANSWER: half as much coal\nSOURCE: steam-engine-p37"}
+{"key": "9903a7786e750048906ec45fef8b6dc7e4239a6c530026c28c77aa7a44489f4f", "response": "ANSWER: 1849\nSOURCE: steam-engine-p39"}
+{"key": "690a94a6edae883981d5e0b9e86ae5e3fd07e593aa87ca16d7ec63feb7708a0a", "response": "ANSWER: 1500 °C\nSOURCE: steam-engine-p41"}
+{"key": "a9024db282e6299fe19eeb0a68510f8ce01da9d9655b0c0b326dad7ae827c98a", "response": "ANSWER: water\nSOURCE: steam-engine-p44"}
+{"key": "9894ff8dc509ba95df028f7fb9db488801dbb0c459c091890da9c840522f2da7", "response": "ANSWER: Britain\nSOURCE: steam-engine-p44"}
+{"key": "7ea4e8473b729aa09515330cc537942d740162b14d47dae72981036b5d3b444e", "response": "ANSWER: 8\nSOURCE: oxygen-p0"}
+{"key": "7a5926a0ba17d9461263660554929607a7fe44fb9c6b536c09ccd5c454611356", "response": "ANSWER: special training\nSOURCE: oxygen-p6"}
+{"key": "2f63a8955490a5f60cd4b1b0adf5de641b28586d4bd2b69c872aaa79ddf23cf9", "response": "ANSWER: dioxygen\nSOURCE: oxygen-p0"}
+{"key": "50d8afc807fd0bf211331d2007791fefc783b31dfe44d1e5a5574ab687a82b67", "response": "ANSWER: oxygen\nSOURCE: oxygen-p1"}
+{"key": "85888f4165811a72c3a85a7ca4d7c4a770f7629dfaa002c88764917d27750672", "response": "ANSWER: late 17th century\nSOURCE: oxygen-p2"}
+{"key": "ee11d4cf4d64215bbed24bc757a4a55d2bb728390d447ba709bd4f0b9a5de0c2", "response": "ANSWER: Pneumatica\nSOURCE: oxygen-p4"}
+{"key": "0bea2268757397791057d3d4667851ebb0435c0bc087cb23efd25a45af774f8d", "response": "ANSWER: hydrogen\nSOURCE: oxygen-p8"}
+{"key": "a5679806bdbcacbfb51b603bb8176b7aed2bd11c865109a7001786e62656c472", "response": "ANSWER: Avogadro's law\nSOURCE: oxygen-p8"}
+{"key": "19c4348b8b6c381071f73d004cbf2fb32262cb1c9fcaedcc4b710a2bff708a14", "response": "ANSWER: Aufbau\nSOURCE: oxygen-p10"}
+{"key": "c6be93b911123321fd4f5d37d439507b57d8720ba0dfb126bbceda007ead62f7", "response": "ANSWER: triplet oxygen\nSOURCE: oxygen-p12"}
+{"key": "bcef3e3968386daf22502e7025ccd94c0c7db080ba434edc36762122a28078a8", "response": "ANSWER: cellular respiration\nSOURCE: oxygen-p1"}
+{"key": "eb13660c0b7575ca153d4b13d76913f5419d561207ef8f0bffbe684963b0fa96", "response": "ANSWER: temperature\nSOURCE: oxygen-p17"}
+{"key": "25d0ce35a8eb6a2770fc635db4585cc9eca4b3f1a1c4e5269c63b41d691c2e79", "response": "ANSWER: Earth\nSOURCE: oxygen-p20"}
+{"key": "7c3943b032dc1ca20808213e55feb96332eb8ee568584e10f52252eee2b37a92", "response": "ANSWER: lower global temperatures\nSOURCE: oxygen-p22"}
+{"key": "0b4631076006ab255dbab1f85741e6b36b4267b57eb877ca2f048e43a0116562", "response": "ANSWER: unpaired electrons\nSOURCE: oxygen-p24"}
+{"key": "e52bdf71afe7110f7959ac9f287948eec38e6976caf5dd3e90cb4f3f76d78bb8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f7d400987d86a9f84631787e5b86ba03aa796ed5579108f600eb847a459fed41", "response": "ANSWER: oxygen\nSOURCE: oxygen-p29"}
+{"key": "5b1443dbaecbc881c257ba986beba9a0cc75fa866284b3224cb6fd9f59b7464c", "response": "ANSWER: oxygen gas\nSOURCE: oxygen-p36"}
+{"key": "44f0c063dc951a67bdb2e21de4d7aa7403289697f7b805e209a2d61b3bacd11d", "response": "ANSWER: carbohydrates\nSOURCE: oxygen-p39"}
+{"key": "f3d66c9550fd865e1c0d2082138a8b3f6a912e92c84cfa04e9c6a824a7f8616c", "response": "ANSWER: bones\nSOURCE: oxygen-p39"}
+{"key": "09b8ccd2511da3988c9d499e1c7304460f5437b48b5d43923308d263ec8b3105", "response": "ANSWER: coining the modern name packet switching\nSOURCE: packet-switching-p0"}
+{"key": "c351bf8cee87adcc14c4642209d844944d68242d838eb9b602476fee89be6435", "response": "ANSWER: according to a multiple access scheme\nSOURCE: packet-switching-p2"}
+{"key": "3375961801ef97db87fbbcdd056b906e9dc0520e2992e3fc27b8bc7ae1c3d665", "response": "ANSWER: distributed adaptive message block switching\nSOURCE: packet-switching-p3"}
+{"key": "ffaa36d1bc6102f2b878356c6a81b7531bfcf0653ee9dbfdc9542247507da02c", "response": "ANSWER: Donald Davies\nSOURCE: packet-switching-p0"}
+{"key": "4a72cd14121f836d9adc327119c913217ce6c92a25a8127b04c3376fa737a238", "response": "ANSWER: a fee per unit of information transmitted\nSOURCE: packet-switching-p1"}
+{"key": "09110d1fadaaa7b394c3895dafb5dc98622f997ffabe0cb3790de9284fd9e5b5", "response": "ANSWER: distributed adaptive message block switching\nSOURCE: packet-switching-p3"}
+{"key": "83f717758eb685e657cd7462dcaab4db8a111458c3f3ffc38fee8b9dfe1805d4", "response": "ANSWER: complete addressing information\nSOURCE: packet-switching-p5"}
+{"key": "3d87894e5bdcb3922af3fb8128166b5a36bb5f419e0a48bcf40577788b4e0830", "response": "ANSWER: individually\nSOURCE: packet-switching-p5"}
+{"key": "9818b6721fedba690d9574b7dfc3c9f3804201317e29edbeebe80b44a0025b6d", "response": "ANSWER: 1969\nSOURCE: packet-switching-p8"}
+{"key": "e56de2d5d8acb32e3ee6c42b0f3938fb3a23b2a6cd25d8526cdc49a441a5d924", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "cad6101dcaf0ccf61b0fa6a54735cd4c93f6ccc399fa9c9bf0bc89906df9e8d4", "response": "ANSWER: CYCLADES packet switching network\nSOURCE: packet-switching-p10"}
+{"key": "30cf4f922a594a91574d376bb05605951372ded473caf388f0f037942384e7c0", "response": "ANSWER: advances in 3D printing technology\nSOURCE: construction-p7"}
+{"key": "7ba1738db09b8c94f52044399ddff673a2014ea61b5664c316f979ae0a035ccd", "response": "ANSWER: X.25\nSOURCE: packet-switching-p14"}
+{"key": "0553421780871bb5125edaa2055c46e02b97058d0974f56e83cf7090a72e621a", "response": "ANSWER: dial-up connections or dedicated async connections\nSOURCE: packet-switching-p15"}
+{"key": "33aa70a6a307ac4e14a3e83878e75e5c97289bb77af8efa8705e5960ddbff79c", "response": "ANSWER: incorrect\nSOURCE: packet-switching-p18"}
+{"key": "b8d2b138d6965025c278d3a0de8f1712dea8d202134df3d515a0a8dbfddc49ae", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "ea179fa96b591438fa857436eac7d16d3b4d7c794452e32de94889c88b77f2ac", "response": "ANSWER: Civil disobedience\nSOURCE: civil-disobedience-p0"}
+{"key": "c22b779fe7393472abf6bb3613e0123544a3a58714f6484f889131f8d3126b8a", "response": "ANSWER: Antigone\nSOURCE: civil-disobedience-p1"}
+{"key": "f98c5a04132ad05d7584255bd9448a27dfcb93d5486a08adcc9a71414fd1037e", "response": "ANSWER: Percy Shelley\nSOURCE: civil-disobedience-p2"}
+{"key": "f09fd3206e246e1b8d7cd2dcc227e18f2d294bcd7f2686aa8526b8713e9857e4", "response": "ANSWER: nonviolent protest\nSOURCE: civil-disobedience-p2"}
+{"key": "3ee79636751bf2ce9566b583befc8d3e7ea34a4b5cfb7377195ef1e3f61f3f3e", "response": "ANSWER: manufacturing\nSOURCE: construction-p0"}
+{"key": "d6ac86f58e5868c3efde307bef7a161553079450b271d1df49ec7765b622826e", "response": "ANSWER: a known client\nSOURCE: construction-p0"}
+{"key": "5450b6dd81ff5ed4336a910fd3ef44b620ea862ce3e25df36b272fe0fd73afc3", "response": "ANSWER: Industrial\nSOURCE: construction-p2"}
+{"key": "5900db06537f673290b7888d52aef3f138f601b4e55a1fb6883411e5510b8f00", "response": "ANSWER: the property owner\nSOURCE: construction-p8"}
+{"key": "8d884706b17ab36d499d9941ddb5e6e370e953563f7064aae63faeca482e668f", "response": "ANSWER: Ersatzschulen\nSOURCE: private-school-p7"}
+{"key": "49d8588aef2d36d99ca4bb2b6ec5ddfd178f8b18ae25fc1d9a37c98071e68314", "response": "ANSWER: vocational schools\nSOURCE: private-school-p8"}
+{"key": "deab4b1b39d05d40f0fa2e4e334b0b2defdb74a891a0f652f0a31789956e4c5a", "response": "ANSWER: societies\nSOURCE: private-school-p10"}
+{"key": "4fe8aa08b7dfee9d3eab3bdc3f197317ecfd407c5e6869d3b57d8cea50fb8d7b", "response": "ANSWER: Chinese\nSOURCE: private-school-p12"}
+{"key": "c7630da6ee9c051a60ccee7f5296be58cd57ba35e30a00f1ecd25785cb0a76a4", "response": "ANSWER: Fraud\nSOURCE: construction-p11"}
+{"key": "29a5aeab9086e1cafb9fbc9a710ee9e9548e8a514d1c0277a48f35b42345631e", "response": "ANSWER: Education Service Contracting scheme\nSOURCE: private-school-p17"}
+{"key": "60400bc31f38d73035d76cc1107bfaeb7ce8832e408fd7bd1e299251317421bf", "response": "ANSWER: An attorney\nSOURCE: construction-p13"}
+{"key": "062b42d8dbad719ef9752b74cd3a1a08c770d4243163f810037715f741342979", "response": "ANSWER: each side is capable of performing the obligations set out\nSOURCE: construction-p14"}
+{"key": "f96a10a9ea138a4289f374e844214e7f0752d1ec0f9b4d212678c9c912da390a", "response": "ANSWER: relationship contracting\nSOURCE: construction-p15"}
+{"key": "b752d6e9a8124ad69198ba1e00f64836cc865f6e8ddf6dbee8bb06ca02d22c1d", "response": "ANSWER: 667,000\nSOURCE: construction-p19"}
+{"key": "de6268996070bd3c39c8916a8eaf669ad69229c85db7201c5ff361ce9496594b", "response": "ANSWER: public schools\nSOURCE: private-school-p21"}
+{"key": "f31ece0342e54b507c78be50f3d9996d3e0dc232ce7ef0ce1e8061196c7d0125", "response": "ANSWER: 1972\nSOURCE: private-school-p24"}
+{"key": "a5d6e20976d28b0c6eefef09df2c470b7c83a579112cbbabc86e93055e63ec45", "response": "ANSWER: 1977\nSOURCE: harvard-university-p0"}
+{"key": "a6a8dc1e1c65ebe2ec18084811b7ff0ce2ea8dbe6bb292d96f34e1895d976c6e", "response": "ANSWER: Association of American Universities\nSOURCE: harvard-university-p0"}
+{"key": "270c11179168cf90b65c66cc12178ab04c541111865d3898c8227af0fe858ce2", "response": "ANSWER: over 18 million volumes\nSOURCE: harvard-university-p20"}
+{"key": "3d29f8366edb166ace10bcdaaa9bf23976cad12427ce91827b799cfb4813625c", "response": "ANSWER: Charles W. Eliot\nSOURCE: harvard-university-p0"}
+{"key": "0d5cb53cebdce5c87318d57ca3b3c10903545b62ef9d25235c1d412b0735cf00", "response": "ANSWER: half a mile\nSOURCE: harvard-university-p10"}
+{"key": "8a7b80bc98040023c3d6763fee95996012655cc0b17e8fb90f32ffa5041a51e9", "response": "ANSWER: enhanced transit infrastructure, possible shuttles open to the public, and park space\nSOURCE: harvard-university-p12"}
+{"key": "52d8bd1ee7af411e91da60a5409fe3ddec16facd42334b8dc0247da7a0fc4adf", "response": "ANSWER: $4.093 million\nSOURCE: harvard-university-p14"}
+{"key": "b970aa970dc7ecad36efe8ba713a7811a7dc1347b4663bf39428363899dc3da7", "response": "ANSWER: late 1980s\nSOURCE: harvard-university-p15"}
+{"key": "a2546908bdeeaa86afec1678c8a33029db67e410ce53a52c56a67906f8a3daf7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "42c75f7ecb17a084783968ef92f0bdde03006645d742f6285ee2e2265c2d3676", "response": "ANSWER: three museums\nSOURCE: harvard-university-p21"}
+{"key": "4266f9bcfcf8848698cacae2a038624aba7f938e92f2774fa9fd4d20b4af278a", "response": "ANSWER: 42\nSOURCE: harvard-university-p23"}
+{"key": "df6dab63289627d8ef78c303bd53d3565fca2522e84416e8aa8dd5c114e1e899", "response": "ANSWER: José María Figueres\nSOURCE: harvard-university-p27"}
+{"key": "ee4c0930306859cd46dfeab6f5fc350f7e811b4e7cff8897b1c96d5569efbaee", "response": "ANSWER: elite politicians\nSOURCE: civil-disobedience-p6"}
+{"key": "e3c3a472495efe87829ba5f6de6630a7ba827213400cf4d6952f3ba2977a62b8", "response": "ANSWER: for a system to function\nSOURCE: civil-disobedience-p14"}
+{"key": "f6b785f2e8ea1fda066d3f3e4b7e36f60a6bda35d45a356d57ba8f67feeb9587", "response": "ANSWER: using sickles to deflate one of the large domes covering two satellite dishes\nSOURCE: civil-disobedience-p14"}
+{"key": "58d6c760532743eaec62ab4be285698e5751d560f259a78ebaa325baef8145ed", "response": "ANSWER: coercive\nSOURCE: civil-disobedience-p14"}
+{"key": "ff29a4a47234f40a9e7edf7351700c8e2cb24c3e74891b2c1ec8833af343baba", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2ae49d4242473151d3aff6fd794c11664aa8d94e08910dfb6d1b73134f6fa477", "response": "ANSWER: nonviolent civil disobedience\nSOURCE: civil-disobedience-p4"}
+{"key": "7152a162d6cbc71351d62854ebf992fa319c67f27c319e1fbf0d45d9624e1240", "response": "ANSWER: a protestor who attempts to escape punishment\nSOURCE: civil-disobedience-p23"}
+{"key": "7a661edd39de3c3b219472b87fe09829638757627dccc823834d6ecd78a85536", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9208e411e7cf34799d642c2c2d1f5ddd18d8e46d64d4e678f6cc0c653ee1cf4b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f84fc988cbb6e7e71db9c4d064c38c1a69051862139fff450ad59dde0d4e79f5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "01e1ea4891d721e20878e0eeece351f96233d1f84dc19db3525106a3c43f34ec", "response": "ANSWER: Non-revolutionary civil disobedience\nSOURCE: civil-disobedience-p10"}
+{"key": "188aec033c990a6ca1beb3bebaefcc78c18ff8c55e4980671baba00c3e6922e1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "aec28a51fac90c8014b1dc8e96021efc5d1c7c5d9863f3cbdcc6104b4c52ecc7", "response": "ANSWER: Revolutionary civil disobedience\nSOURCE: civil-disobedience-p10"}
+{"key": "627732700aeca479ec74dc28766987990ecbf10a3773eaa415c265b950d13009", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "fb5d853666be83263246c00bb44b1169e2a93dbe61da2e81f26febd29489f54a", "response": "ANSWER: during the Roman Empire\nSOURCE: civil-disobedience-p11"}
+{"key": "8041df7622c7dd116d12efc98ede1350112d85c696d7bd8ee312c9d752f53d93", "response": "ANSWER: submit to the punishment prescribed by law\nSOURCE: civil-disobedience-p17"}
+{"key": "3e0d933534c35cc2fb80fc01600fb297ad544910dfe08bf605d2761acbcc07da", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6b1bba5f81267373dffc02c81750280230f8a8a67e8f1e24c2dbfacd6859c879", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "94d94ac65d6f6ba53e4c8b5481524db7ac0a09ff14c6879a9c3ea9dd59d9decc", "response": "ANSWER: Christian Goldbach\nSOURCE: prime-number-p5"}
+{"key": "cec0b99bcc9608bbdb56afbf0ea6d2cedfb0a84275347d8f76d152ed2178bd0c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9a22c55541d867153993056bb7bc1ddbcacfb8f33e2bc59558e167e3de47fbb4", "response": "ANSWER: Euclid\nSOURCE: prime-number-p7"}
+{"key": "e6203281312e96a598d4d917b7ab5dcf6a8ebefcc3302005a311f1a37b50b7d6", "response": "ANSWER: 1640\nSOURCE: prime-number-p8"}
+{"key": "0b08901433a3fda1bb31871427cd78b5c47fddc0f7e51c75946ddf6f29ba041d", "response": "ANSWER: 22n + 1\nSOURCE: prime-number-p8"}
+{"key": "9dd0a6ecd4d21d7528c40d839df42614bfd89e108acaf1c5c59bda67cb0e11a5", "response": "ANSWER: a complete list of primes up to is known\nSOURCE: prime-number-p9"}
+{"key": "53f71f8a65e4c98816e8efd2bdb82e738cc39e14d3188aad05cf13599351d9e9", "response": "ANSWER: Fermat primality test\nSOURCE: prime-number-p11"}
+{"key": "28bd7258b9b39df989b313fa5e15adbe449dcfd28f5853b258b24511a48626f8", "response": "ANSWER: Carmichael numbers\nSOURCE: prime-number-p11"}
+{"key": "725417ab6a4f9d84447c73fcfbb9c6b2ad9a5de3de7924e919f3c6e49fd00312", "response": "ANSWER: Vinogradov's theorem\nSOURCE: prime-number-p18"}
+{"key": "9ed3fd871a341e9aa1ea6f10b0ce4a06d60f57a1902d1ef307e725d449bb7767", "response": "ANSWER: n2 + 1\nSOURCE: prime-number-p19"}
+{"key": "ec2064b79ae39946579a79c8d3113327c63c8d997e70e22eff6a3b956257ab6d", "response": "ANSWER: hash tables and pseudorandom number generators\nSOURCE: prime-number-p20"}
+{"key": "1fef196ea93ec686849e0b28ede14847fcd0f4cb72340d57ac974403e899697e", "response": "ANSWER: RSA\nSOURCE: prime-number-p22"}
+{"key": "087da30f43b70aac3b888f8198718a4b1499d3dc6b75aa4f7d1e4887eb031827", "response": "ANSWER: cicadas\nSOURCE: prime-number-p23"}
+{"key": "58e59e80011ef5cc5fa9b0c2b8d78aae3e46aa028c16a689e57abce63d385c56", "response": "ANSWER: 2%\nSOURCE: prime-number-p23"}
+{"key": "f37a1731af0dd908b334110aeeb8bd77a5f5303d9634606f7b1d2915583bb7a9", "response": "ANSWER: arbitrary integers\nSOURCE: prime-number-p26"}
+{"key": "6717920864b5c1d185fd5a9e9ad595cdbc187f0dbca740fd6e9cb6eef90e0749", "response": "ANSWER: 4k + 3 and 4k + 1\nSOURCE: prime-number-p26"}
+{"key": "a1b8928827367ddcba263447cdb65f946c1b81bab6d2f7306d145e964428757c", "response": "ANSWER: algebraic number theory\nSOURCE: prime-number-p27"}
+{"key": "b47f9d1134219371c5e82568275d8aadf7c8210e2147e3c3e954cf880bd03548", "response": "ANSWER: fundamental theorem of arithmetic\nSOURCE: prime-number-p27"}
+{"key": "a52e693c4e5b94adfb0374d561269a74cf650b8a63dc2be5effa1ac0393552b9", "response": "ANSWER: Prime ideals\nSOURCE: prime-number-p28"}
+{"key": "0e4f3c4d4e336ecd435b5062b37c4c0b5630e901015d4caa7a586b445f4bb737", "response": "ANSWER: local-global principle\nSOURCE: prime-number-p29"}
+{"key": "64f2c232be796c6838b0de05dc32412dd3480bb6334f073da91376cf409c214d", "response": "ANSWER: Rhin\nSOURCE: rhine-p1"}
+{"key": "c23806aca44df51af0542f7630e96790bd10a14771a49f6adc078c1953e149b6", "response": "ANSWER: Old Rhine Bridge at Constance\nSOURCE: rhine-p2"}
+{"key": "769744574b8c0cd9edcbf1490e97a8fd2ad3de39a355ff8713932f8dbfecda81", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "dc96e94a5e4fb168dc002f26af0bc7a7734a5b826d08865492c5361f531aa05f", "response": "ANSWER: upper lake\nSOURCE: rhine-p6"}
+{"key": "2f25c1f4265d7037708721470b3754d41b0c13fe353574663fa1f50d68c63d14", "response": "ANSWER: huge compensation pool\nSOURCE: rhine-p10"}
+{"key": "73fc29fb6efdc051321b4fa42b621edda61ecd75ecf0ca53093d8128021e5c3f", "response": "ANSWER: industry\nSOURCE: rhine-p13"}
+{"key": "d37fd698b3a02a92324afad3694bbe37e5dfc70968f4bd7ba7365b28d6e87cee", "response": "ANSWER: Lower Rhine\nSOURCE: rhine-p13"}
+{"key": "b1606468ff95cd4cbaabbba29e7ce62790c706d1000865e26d8eba23d8c6d7e6", "response": "ANSWER: Rijn\nSOURCE: rhine-p1"}
+{"key": "adb8aa1bf0dc6d448437b775e90639834558c6705264a8cd913e7a089854e661", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e44440d80ddb4122ff4fa4c3ff37921ba8d2e3b87835d7fd8d0f0835bbd76048", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "41fb795c7d4f2facd9d48d9a8f608b66ba56d399bbf735543ac7186a89c277f7", "response": "ANSWER: canalisation projects\nSOURCE: rhine-p2"}
+{"key": "9c0deb606b5a08a10c10756797a5f6974e20bf48292ef0c55e35e189fdc2de21", "response": "ANSWER: near Chur\nSOURCE: rhine-p3"}
+{"key": "b6a8fc1c47d763eb2575a75859a0cbc7da7696e96448a288d7d8a62056364d3e", "response": "ANSWER: Alter Rhein (\"Old Rhine\")\nSOURCE: rhine-p4"}
+{"key": "e2adb668e5e2d88f3819d4e69d693afd6a46741fc906a1fcaeb302b8d756d2a9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e59158979110d3a90545fb0a25fde00a054f0e6ccb567a03ff6b26479bec4881", "response": "ANSWER: Lake Überlingen\nSOURCE: rhine-p7"}
+{"key": "5461c09ec11a112eaacdeea0f4d00ed8046e32ba447df43c1d4e0d924f199810", "response": "ANSWER: High Rhine\nSOURCE: rhine-p9"}
+{"key": "7849f4f829cc6a9d5531414f6dd39e335eed8b49203b4c3925335620533a19ec", "response": "ANSWER: Islamism\nSOURCE: islamism-p0"}
+{"key": "4916f755d170a5665f1cb4d07a28d1cc7b55abbfa57a5d888e714278ce85497e", "response": "ANSWER: democratic process\nSOURCE: islamism-p1"}
+{"key": "5db23728ef93d9757ad1051ce984bfe32fd7d2bd272047cbbf89f73e29e341b1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "844da0996e90b00383cd34962bba5f75dd51eb67cb2597123413cdad8d0adc52", "response": "ANSWER: Old Meuse\nSOURCE: rhine-p20"}
+{"key": "920ce7db5de42ee65508ab488389f2452cddbdb626c4e5ab1fdd384374c7cfbb", "response": "ANSWER: 1421\nSOURCE: rhine-p21"}
+{"key": "fe3678b4178fdb84bfdd82e18371451ea4ffad15806e57969b1971f84e162584", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "aceb8359b1d9828da64f1dc49639ba18da82f647b986c753dba6d4d3ec9fa01d", "response": "ANSWER: During the 1970s and sometimes later\nSOURCE: islamism-p5"}
+{"key": "ee4e89ea8bb9507419157aab57061188d474d4b5d970174c137e6ddbadbd47bf", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "00118b9f88dfe76e01b4460e6c6a93eacac59a56487138ede31f489e0e8ec636", "response": "ANSWER: offshore of Brest, France\nSOURCE: rhine-p27"}
+{"key": "1eefd0cca2fb642c3a44634ba57bea78f7b974d7d1634fb999d1a6334bdf48f5", "response": "ANSWER: roughly west\nSOURCE: rhine-p28"}
+{"key": "34727f8f71e8b80fdaf0f8b1681f596c82f443cfde77efec9d236a3cd4d0261a", "response": "ANSWER: 1908\nSOURCE: islamism-p9"}
+{"key": "442567fe7febb46987a7384491a958e59e215c235620bc1051bde7ef4bf5bc16", "response": "ANSWER: mainstream Indian nationalist and secularist Indian National Congress\nSOURCE: islamism-p9"}
+{"key": "f89c44da10831dc4649fd11ba4fb6fe45873f1bd58ce4079667fa22964c57617", "response": "ANSWER: a glacier\nSOURCE: rhine-p29"}
+{"key": "5d798e70366fbc5b467f3afc61199c3ba928a19fbc01104096a49a01280de2f2", "response": "ANSWER: A tundra\nSOURCE: rhine-p29"}
+{"key": "3c84649f406ba7bd5723b71962db3df0381d7976ca6e2ee7a821f780c9eac32d", "response": "ANSWER: 1930\nSOURCE: islamism-p10"}
+{"key": "704a1e5b7c7b82f7442e50f264340a25a9bf07175f2ba9deaf87935cb100616b", "response": "ANSWER: ongoing tectonic subsidence\nSOURCE: rhine-p31"}
+{"key": "b1ebbb433aa9184dcbd47bb2d753c6f9d3dc0b702fb6acfaf988804df60545d9", "response": "ANSWER: eight legions\nSOURCE: rhine-p37"}
+{"key": "d110e02be6812b9b70388e667d3b24dd6db6fff4e2fdfc5b7987c85de4de39d5", "response": "ANSWER: long-term conspiracy against Islam\nSOURCE: islamism-p17"}
+{"key": "8d98d021a0b0bea281c6ecd349012bff1bdc4630ca133fd9ae00c98ef2ccb0d6", "response": "ANSWER: Archduke Sigismund of Austria\nSOURCE: rhine-p39"}
+{"key": "7a96009ac46cf2bf0d221710bf117ca5e326c426349b59ac0367993a956b8d64", "response": "ANSWER: Peace of Westphalia\nSOURCE: rhine-p40"}
+{"key": "93c95dd133e86e1de11b0cfe01f74d18eb08becebf93cc2b99ab771c55ca72d0", "response": "ANSWER: Establishing \"natural borders\" on the Rhine\nSOURCE: rhine-p40"}
+{"key": "6d93883795c5dae706e18801931e7caf55a4bd16e1dc6505fbb14da097a12f03", "response": "ANSWER: Arnhem\nSOURCE: rhine-p42"}
+{"key": "7fe98bbb9be5d2da234c265c53c4b42fa8900e440ab1738aafd93bd6675cae7c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f9851c804b1c2b0f0b91e17645e9552f817f48d23a5fb322b2640a31e4b1f4c6", "response": "ANSWER: Knaurs Lexikon\nSOURCE: rhine-p43"}
+{"key": "33aa1d561df614b3853d4c5fd16e23bd304a286def79c903bcc06cc2b9d78f2b", "response": "ANSWER: economic sanctions\nSOURCE: islamism-p18"}
+{"key": "f23ac9267ac44ca2965384a41cc5e32394b8f1b02c42204a89fa4feef69389e4", "response": "ANSWER: radicalize the Islamist movement\nSOURCE: islamism-p20"}
+{"key": "386234dfbc46f395ac5fa1ea35029318898c5b243c62f1b159dfa8423efb2f4e", "response": "ANSWER: conservative Muslims\nSOURCE: islamism-p21"}
+{"key": "725b421c3c71f9a7dfc33c75a9e5aa32028833f3c2cb36e46d23ca991aead964", "response": "ANSWER: By the 1970s\nSOURCE: islamism-p22"}
+{"key": "fb1010bb145fc5c4e3c7a5687694add931b5105d253ef263190629be6e9c3e7d", "response": "ANSWER: National Islamic Front\nSOURCE: islamism-p27"}
+{"key": "ec61f87b9c783ca7a4e510e22489a3888424777ed6c191d31d1b0774eff66212", "response": "ANSWER: university and military academy\nSOURCE: islamism-p27"}
+{"key": "0ea38faf759d7c86639b71259e654b95883e5ccb90e1f80409e355ff5e26aa9b", "response": "ANSWER: military coup d'état\nSOURCE: islamism-p29"}
+{"key": "82c745362c4351fda893e7553a5c6a588afae4012aefe0c1c2619204dd065166", "response": "ANSWER: vicious and destructive\nSOURCE: islamism-p30"}
+{"key": "f3ce3ddf8286f57238d8cd36fb0909b4fa5e9c3d840b3f4db4b63ca7c0341866", "response": "ANSWER: neighboring Pakistan\nSOURCE: islamism-p31"}
+{"key": "02af8abd730bead510ea5d4fa887babe7f93be903aa08dc12d0312587a8ea602", "response": "ANSWER: Islamism\nSOURCE: islamism-p32"}
+{"key": "6261d5c43ddfe984f9989cc89e660eaa58c70f00c9bc7de08cb6e3e5c2f0da02", "response": "ANSWER: 2007\nSOURCE: islamism-p37"}
+{"key": "3e65f44427392c3fc85db87edd13b61a6608e422576d6feb978b7286050f92b1", "response": "ANSWER: since 2001\nSOURCE: islamism-p38"}
+{"key": "c37aa9e101850df18237817d76292fb0fdff79522ea105e6735caa6e2abcdf8c", "response": "ANSWER: Vistula River\nSOURCE: warsaw-p0"}
+{"key": "74207e02ad50edb4f67e4f2b8aa72adf3f6fe54f59bea3d9689c9767e81c68b6", "response": "ANSWER: 9th\nSOURCE: warsaw-p0"}
+{"key": "a88078519a9843e21ae6a7e9357dc0c0c4e3562751712c59f6721157aa4038c6", "response": "ANSWER: Warsaw University of Technology\nSOURCE: warsaw-p34"}
+{"key": "e06d9de3f09d6105ff3302da6b241b71227091f5cb4acac7507d1d6c40c0832d", "response": "ANSWER: 1413\nSOURCE: warsaw-p5"}
+{"key": "09af530fedf598a52bdeaad72a0e1bcef805aa780f257aed67c63a03d45a6711", "response": "ANSWER: from 4 August 1915 until November 1918\nSOURCE: warsaw-p8"}
+{"key": "93eef01a943f9aa601808e1c57f92ac4262c3b02f55bce2e662a8069948b4a3f", "response": "ANSWER: areas controlled by Russia in 1914\nSOURCE: warsaw-p8"}
+{"key": "53668cf2df41edf53df679e1ea35a3555a09e3f4561fd8fef9e2e15f61fa72c1", "response": "ANSWER: 63 days\nSOURCE: warsaw-p10"}
+{"key": "22833d05059179aee9bbcd607f91b2c13971a1898fdacb2596560fee8c19c948", "response": "ANSWER: John Paul II\nSOURCE: warsaw-p12"}
+{"key": "ae806ce9ff8fcd871f7992396d0b487ac50319071e7c14b16c06f7ec3a424393", "response": "ANSWER: Vistula River\nSOURCE: warsaw-p0"}
+{"key": "a2a6591e5391d6b8a53f5558530df5149753efa09a44206a9374440db286dc23", "response": "ANSWER: basic design typical of Eastern bloc countries\nSOURCE: warsaw-p16"}
+{"key": "e25bcc9cff135ebf59e5921ae6b8e49ce07ff415cd21ab4d99965f28b34925ca", "response": "ANSWER: Masovian gothic style\nSOURCE: warsaw-p17"}
+{"key": "6e169ca7e261bab3b8e29e4a1db45a3dbe50208c4099274986c73f2e54cb3089", "response": "ANSWER: mannerist architecture\nSOURCE: warsaw-p17"}
+{"key": "3d51618240c4d236ea4115c92aafe4a124258cd71aaa5c54ad269f981328dcad", "response": "ANSWER: 17th century\nSOURCE: warsaw-p18"}
+{"key": "ccf6f4017c160ed8072a665b4d2f373ea41cf6d946125401d403c802cb6b212b", "response": "ANSWER: 1775–1795\nSOURCE: warsaw-p18"}
+{"key": "c64dd3307994b6fbec9b6f3a85ef15007350125864fc794f7d4afc5aefdfbabf", "response": "ANSWER: location of Warsaw within the border region of several big floral regions\nSOURCE: warsaw-p23"}
+{"key": "f38b9f12bc47e9d0054350bca3d77ec44f4a24512199cc8e7499fc42150762b7", "response": "ANSWER: Masovian Primeval Forest\nSOURCE: warsaw-p23"}
+{"key": "a43a051cfe69d1145291088e5a7417c07a7afea6aabf7091a736006c2d33905c", "response": "ANSWER: 13\nSOURCE: warsaw-p24"}
+{"key": "b50dd599b3f4e5350cd7b602b027c0f351f891838dea2b6c1247fa02067849c6", "response": "ANSWER: residency registration\nSOURCE: warsaw-p26"}
+{"key": "8f1d7f91de7adf32364029debf26d03268579dd5806d1096df6296d4a9c684c4", "response": "ANSWER: committees\nSOURCE: warsaw-p29"}
+{"key": "b9d142f5a08d3d3feddc59a407d03a840b4047a7abde8bcc5ad9396154a0f89d", "response": "ANSWER: Śródmieście\nSOURCE: warsaw-p31"}
+{"key": "1b8360fdc7ccd091f75b2de1278f391eccf8323c443a9c414518717673365215", "response": "ANSWER: 304,016\nSOURCE: warsaw-p31"}
+{"key": "ffb228bb2707ca7937f1517f01b550398b844bd1cbd668987118103c019d0413", "response": "ANSWER: 1817\nSOURCE: warsaw-p32"}
+{"key": "4ea28c5bb80714d31deb11c8aa034ccad22c40a156f36024dcff41ba389a8042", "response": "ANSWER: Warsaw University of Technology\nSOURCE: warsaw-p34"}
+{"key": "f409f09bb2fb7cdfad432e0d392b7bb698a95210fdd5117fc6b981151e6269be", "response": "ANSWER: 1816\nSOURCE: warsaw-p35"}
+{"key": "5d65eb9612f3b4094cb2823c49cbd3ec0374452a61ad83bf4404144acf52e83d", "response": "ANSWER: solid economic growth, an increase in foreign investment as well as funding from the European Union\nSOURCE: warsaw-p36"}
+{"key": "65d9d750bb4991d459baa6f47420da1c324d678541c4ece92fc5a85d966708c1", "response": "ANSWER: Warsaw\nSOURCE: warsaw-p37"}
+{"key": "e109b47252ed8055c7cb387e3a6867ba991a67804d9c81784b515129a7c8fab4", "response": "ANSWER: Palace of Culture and Science\nSOURCE: warsaw-p38"}
+{"key": "46341b60f36f97f8f0cd30b575f689547bcfb24391f82939454c6d367885105a", "response": "ANSWER: Wojciech Bogusławski Theatre\nSOURCE: warsaw-p39"}
+{"key": "d12eee68e5f5d60e3c81d9d13390a560de659013f8749ead4126481f7534f905", "response": "ANSWER: when they would be married, and to whom\nSOURCE: warsaw-p40"}
+{"key": "b1b7d4df9c40db050161d80ba2636c5aaa1f6d36f230a1804abe045f59f90998", "response": "ANSWER: arms\nSOURCE: warsaw-p41"}
+{"key": "ee06c3fb66ee4b4981a4efad91b1497ebd96a33e32f0aec48ee3a4533cac920f", "response": "ANSWER: Warsaw Uprising Museum\nSOURCE: warsaw-p42"}
+{"key": "6b69f14cf717d0c3a39f0eb3ad20896da934a133888ef55a0341d04d6ce7d8ea", "response": "ANSWER: historic stereoscopic theatre\nSOURCE: warsaw-p42"}
+{"key": "a8469700afde212eb66ce67ae5b7cdb5999c0a8b4ad647dd0be42c2f772f775b", "response": "ANSWER: Konwiktorska Street\nSOURCE: warsaw-p44"}
+{"key": "0b4acc2bc76ffb5c045141b0ac4063a79866ea500c5f6eb1eae84ad4fb4f3e05", "response": "ANSWER: syrenka\nSOURCE: warsaw-p45"}
+{"key": "edf71ee13db2fea19d132e3cecc9e45956d5bb65c85eff0f5bca6cdc995ffa76", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a2484a00625908f05930a79f4bef3dea2a9974464c9b5404c6ecb3e114d672b8", "response": "ANSWER: the depths of the oceans and seas\nSOURCE: warsaw-p46"}
+{"key": "cf42b6ee2b0ea9e0707475cfbff86075727d0a59e616f78b7ff9e3177e1dfff3", "response": "ANSWER: 1916\nSOURCE: warsaw-p48"}
+{"key": "ab4a46f5cc8bcc4ee2fff704aa8dea870475911f084db8baf33f7a2784625a37", "response": "ANSWER: gauge bosons\nSOURCE: force-p1"}
+{"key": "1849004437078a92f4cc1e5b675d9ec64ff35258cf1a29409706a2bcc74a7737", "response": "ANSWER: Galileo Galilei\nSOURCE: force-p3"}
+{"key": "47fecc4356335ede22db3bdac6c22a0c700dfbec6ab7ce4f962bbb24f622ee49", "response": "ANSWER: Inertia\nSOURCE: force-p5"}
+{"key": "2c6396c8fb32301b6a7aa8987456a628bd9d42b73af02b07d81ff5d026593d38", "response": "ANSWER: General relativity\nSOURCE: force-p7"}
+{"key": "f006bcb22faca8c4cc4f314f850a4e248756175db1e21e6be17aa49d589af22d", "response": "ANSWER: an intuitive understanding\nSOURCE: force-p10"}
+{"key": "c523483078cfb62ae4de5903eda796aad9e5a9543794e746f74a16bc813a4d43", "response": "ANSWER: scalar quantities\nSOURCE: force-p11"}
+{"key": "fb866c917e25bd3da41e1d36d857ec442869ab6dfcd2df6435582d03b0320fdf", "response": "ANSWER: Isaac Newton\nSOURCE: force-p15"}
+{"key": "492e9bd57aca70840b94c81f5b7f550bbc4d054003fe33859378f9f1f9c36260", "response": "ANSWER: behind the foot of the mast\nSOURCE: force-p16"}
+{"key": "e65e28e46704725c62f855d304484c588ae44afd61cb6187aaf0551120c6d4df", "response": "ANSWER: Schrödinger equation\nSOURCE: force-p18"}
+{"key": "9ec2df7dc80d28d7df0d33d5fbcc8d2803f43124c0c40c754397a75787ea241e", "response": "ANSWER: force\nSOURCE: force-p18"}
+{"key": "85bdce61f78bdf6c352aba1b693b61d040859654a17f7969ce5c75ae5c0a24f6", "response": "ANSWER: the value of the spin\nSOURCE: force-p19"}
+{"key": "9ae215f6c8ad125e9d09d73358a5415d4113bc03e743803fa4309a45a45bb3a9", "response": "ANSWER: as a mathematical by-product of exchange of momentum-carrying gauge bosons\nSOURCE: force-p20"}
+{"key": "f72f7cab18f38bb64eccdd70a48113700f446116e97b852e9e05f3c40267eaf7", "response": "ANSWER: electromagnetic force\nSOURCE: force-p21"}
+{"key": "e9f3252067b42ac6a71f3d0a873055216b3a3feb34bdc2e7a5151711fa5cd8b6", "response": "ANSWER: masses\nSOURCE: force-p21"}
+{"key": "bf8f65796ed1e65cc00dd78875dcd47407a63e78ef34138abc3c3246484b2403", "response": "ANSWER: Isaac Newton\nSOURCE: force-p23"}
+{"key": "998c95d93f030c9b2bed9f9df96ee68c3d9f9d475a797eb8ce87e84a4fc70e21", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6e20441ef88c12b8ad92c7e8505abc9e8b8121ee4699adbd0d396819fe5739df", "response": "ANSWER: Vulcan\nSOURCE: force-p26"}
+{"key": "54f99c3429e6ce2b3d9a484c8eb96d21093370f3930285c0c66ef3a09f49ddea", "response": "ANSWER: straight line path in space-time\nSOURCE: force-p27"}
+{"key": "ad5c62a6b070ba3aeb2b02b0663fe8e9110195e1fca250e07df3418bb2484c85", "response": "ANSWER: quantum electrodynamics (or QED)\nSOURCE: force-p30"}
+{"key": "a664614db2f69165ec3db27a48058dad400b6d442915393ab9f35354678fb1a8", "response": "ANSWER: photons\nSOURCE: force-p30"}
+{"key": "10283ff7d616c2f0f70a163bbe21c96676168b7c9e536c1b9024c78d3826c6b1", "response": "ANSWER: 1013\nSOURCE: force-p33"}
+{"key": "9e8231c8960e20ee578c1998a6af3cfe2c003eea4973a09b11950287b63a4703", "response": "ANSWER: fermionic nature of electrons\nSOURCE: force-p34"}
+{"key": "fb2da51c28f154a91bb59d45f21a6c084e47c9b8f4d88a8863774315f5f5428c", "response": "ANSWER: tangential force\nSOURCE: force-p39"}
+{"key": "fb7739a229faa10d355040f800ff0ea6c80781d6e1220a114e70cfa2760183cf", "response": "ANSWER: kilogram-force\nSOURCE: force-p43"}
+{"key": "b575cf73d067890212245409bb1298ef0b4057cfa6711d0f7284d5f3827b5b32", "response": "ANSWER: kip\nSOURCE: force-p43"}
+{"key": "403e8abfe5e82050b5a63091c2e9aa898a9162fb3f9b0dc335e4a1f7d0f6fa44", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2bc481f73b400612248eb5b8e2e3cf2447e5639ac5b468694de357427ee6e4e4", "response": "ANSWER: buildings, infrastructure and industrial\nSOURCE: construction-p2"}
+{"key": "307d53317d22821a8cbf7bd27693da15f5009090cf77ea92f07a8ec39b2cacba", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3f6d7986d2b6352d81da770d37b3419c9b44c6f97b7e88263e394c67b86f542c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "71babe472194fcd6b41673544ce37a1bc13f7b7943a5ed59ed54c7372da039d2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e099be573291d1c1aca52438f7e90050f5ce357e9dff61df0eca876d19cc9f2b", "response": "ANSWER: problems that arise from the often highly competitive and adversarial practices\nSOURCE: construction-p15"}
+{"key": "c7cb4ded7af2dbcc719207023d216abdec8dbb58f5f185d8bcb9e9014a4ed3df", "response": "ANSWER: relationship contracting\nSOURCE: construction-p15"}
+{"key": "27433f3489e50d6b009fff799bfad3dc8ae2b7590899cd9cad656fb8640e2cf9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "0b667a39f0cb7463b5fc59ddceba1b63c473c473052f3d9c8eb03520c821185c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "469409358304907c4813f0477b4f24d8c5fc689d179666ab34a835dcdd8d0238", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a4111bf50acdbc2840f70601c189ff6200518a4a6d92f0c66e4d593c5293fd19", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "794b3436e599d5d9dcc695f024565e9141946900882a2ca1a6ec40922e79b00a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "4b7333108a73a1881a792447f1439ec2dc0bdcf3ec5ffdb2bc08f302821ad19f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "0ad4885cf742977bdc2ccdf5a607fb423d207dcc38d08606b7a523c83a6b422f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5ee5493c4a41809d3f868d0449783b03b1e7a762f6065285338ee1d28be40e42", "response": "ANSWER: routed individually, sometimes resulting in different paths\nSOURCE: packet-switching-p5"}
+{"key": "3ca3355c7cde2d218434693b8e01c34c4f03e2e053e44f913ce909d65b4232a8", "response": "ANSWER: data link layer\nSOURCE: packet-switching-p7"}
+{"key": "e0b7efde1919449ad093457dcbc38f4643fa665cfcf52fd93cccbd948f83f3e7", "response": "ANSWER: about twenty\nSOURCE: packet-switching-p8"}
+{"key": "1bcb0f87f077dbfe52f781101613b81c94c1ffb8dc142067d3645a48bda54b20", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "65426ab2fd1132f5381064e4c547b73354276a1146c379092e38589ea0e13770", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "82e95d34aaa4e1f6f572be292a7516a0b46d9be33e67bfa639a7962af3171da7", "response": "ANSWER: CYCLADES packet switching network\nSOURCE: packet-switching-p10"}
+{"key": "500c4f32d5e128ef00023cc397449b245e40f52ec77252a00353607a35c166b6", "response": "ANSWER: no\nSOURCE: packet-switching-p10"}
+{"key": "c5c6d096a8b22a4a045f5a2f0d89e1696b98f48cc8a9793a19f0bb317a1c6cce", "response": "ANSWER: CYCLADES packet switching network\nSOURCE: packet-switching-p10"}
+{"key": "34159f588290de1886a096d92fb0c22759dec56e6d018716234bdf67e9516ab9", "response": "ANSWER: Larry Roberts\nSOURCE: packet-switching-p14"}
+{"key": "0a24e3029a126a362e172afcea2945863f127ad8724a9235df32d8ae1cab0b0a", "response": "ANSWER: Internet2 Network\nSOURCE: packet-switching-p20"}
+{"key": "d1e4c39d895326ec93addcf6c3ae8f85417eb232ea0ef25a1fb863ba842f02b9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2b136a7a3c822480599a8ad3a165eba7388377f2faa82ef2b2ad6a2986f9b4a9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a1783694f1a255b3e204dadc66ec90a42a20522dc13c3102c848db2c25aded09", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "205d8e7344fa724cf9733e166e0be34dd950545500ba9097d64f6d0bb373b821", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "696f264a94a3eb58934100846583e16f42b8fa1d037da71dc0087c0d2dcfebc1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3708cf482c7b636a6b3ff90e0091539a896c087e125870ce4ca65494232f6793", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6a9de3bd02cf10979b2d99e824dc30f97b8472e8713c4841a9defa242581cf29", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "1172e219e43404f625c46f53e2e19bb82bce40f57cae70b336fae776baef9b21", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "b6fb71ee4c729b984e0fccca49160e8c396bf390b76c1b95bae8b617dd74e5b4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f799e5e2b91eb142f7f37afb3cb26bd1cb43896f0aed63e81c80988aa967ea58", "response": "ANSWER: breaches of law in protest\nSOURCE: civil-disobedience-p7"}
+{"key": "fcb283f8950b9a9868e4ee1a8d98aa8f226158a1ae7920a4d36557311057489c", "response": "ANSWER: Shiphrah and Puah\nSOURCE: civil-disobedience-p8"}
+{"key": "a203a3ffc92248a63fa714374e84e7a4693fc4e8476b0eab3eea9858c630701f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e0cffb0351331039e1afef8962fbdffb43259988d0ec613fba26175f7b94adb0", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3817d8666d6362a8e0e69dc340ae6ec9d13940ec98655513f55819dc4e00dd31", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "1c250514bd8dfdf4e5fafc8be9771a8be33db080188dd17ccbf382bd860553b4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "43c731561b740937b66f409ec46ae3f3d58eae738afd78420a6e19cea9bd5d90", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a3f6746a88c25de7d254558fc88e1bfd3ad6e9ba4032970cfbc448f64cec281a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "7da8c7f5c4499e5ac3be7ae0d92d0268ca528013f2739a8de7d06171ae4c9a69", "response": "ANSWER: conventional HDLC-type link management procedures\nSOURCE: packet-switching-p7"}
+{"key": "cc77bb2b1eef352b247bc53e60f0ff2bbb17edc264df5911fa442aa868d793bb", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6aece1292aa0b972dfc30fd4cbf099e4f9a646c2389f0d11e1498c59905673cb", "response": "ANSWER: User Datagram Protocol (UDP)\nSOURCE: packet-switching-p8"}
+{"key": "2632d8827113740c56a2ea7c6e5c3e3fbf9980bb75e599a36545e52e9867e280", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "af4f4765954b99d6e87e9f5a3c25b419ba89296cc243e76ce829cb62f4532d3b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "11a4c49af6d6a98e82fce6c7512f4525d2585fc2cae04285f089c6377df90e4a", "response": "ANSWER: AppleTalk\nSOURCE: packet-switching-p9"}
+{"key": "ed3efd3378c5ce19c212db378e5a8b6c93ad824ef409037016e01225b67bd960", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e426f8dfbdc92584bafba0dfc180a7b7272c40b36745f82c49e83a659530cdff", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8e7320b712d8fe4a7b502d45300e8d1bf91993b072debb54896c8ec7635c241d", "response": "ANSWER: Michigan State University\nSOURCE: packet-switching-p13"}
+{"key": "b0248e5cb4c27786342737d536e5b2175ffa3ea7d8206ea15a7d5d04924554db", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "4471be8d4af0c5331578cd7b31f62f8d5084f0e8464d8d8f345051f2952871c5", "response": "ANSWER: government agencies and large companies\nSOURCE: packet-switching-p15"}
+{"key": "30a7247b55755727f339a761c76a4fd3ad6acb95b02750fae4e2f8c1dfa89750", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2f6693539dcc121d183f089cf491d0ee592fc892ce74c2c98f18011f159cf6b5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "76cc1b71891962460533e5bc04aab098e951e728a083031261c3e1b6b621ea3f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "00e6b587ace5b03f9b628f77e426702406b7060e7e87f9898b755219e83f47cd", "response": "ANSWER: more than 100\nSOURCE: packet-switching-p22"}
+{"key": "55e4d48e65e1f3902d170f3627b11458bdfeed2e5163aec21858c3f0e94ffe49", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "7ea89ef8e5870fc30e3c65732596093a677740694d2d890196c053c1bc844f21", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "241100fc18d2414ad6403f4e17478a568ac1c597966514097fad7f184f3a25c7", "response": "ANSWER: violating a law which is not, itself, the object of protest\nSOURCE: civil-disobedience-p24"}
+{"key": "85b5f253f29cfbc58699cdb5f389caa400edadb9acfc52c4ed2706d5108682b2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c10ebf736b5490da3a6b946e9901acfeb2a98f6904f7393d12a5cb4681464f23", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "021b37f7ae6fa3e1796ffd76d0d32e810b5463a4226e99e344c4093e09da6eed", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "cbd4035b48bd2a1f25f311dcdb87190812952d9530b71b83086e718b1296cc01", "response": "ANSWER: Article 7, Paragraph 4\nSOURCE: private-school-p6"}
+{"key": "2b20132920adcb568a448164359d868ba9bfa1cd73e8fdb65cb9af13361fde9f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "296dfdba3aecc6a7de4f387534fb834c0d10dc19480ca5cec1c0e62338c4b6e7", "response": "ANSWER: German dual education system\nSOURCE: private-school-p8"}
+{"key": "3b6b31fb803b7b3987d5916081a50468679b8601e05f2605639fbec5515d702b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c2619d60d6e7f9600e8a27e83a0ad643442906f1468b488060dff418f1e7e033", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "af2c4641fbbdf4a972724c3936fc590c222f3e0b3d8ec3ee1a433132630e6ecb", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6b5ec0c7f3e8e745b7aebe5f7f65a7cf37bf8df2d684871be81586389b8c35c5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "b7009aaee63b21025584d6591645a58902d3b5c7265afc4a7119e403da1929c2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8604426a047a41fd493098f040fea57f533085e5057cbd0d80df1c8f21611e09", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f0f52f384bf4d574811adcad0179b81a87446bccae18458e3b92d786485fd7de", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5f9ccbd3417a73e05d07a2386cdded609ae350fd6dff6708606bfb3b6b42c92c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "b1471ac1eb8c26a8d6c5ecda57b606ffe08c08ecb5d2bc0bf6a25b2de8a69221", "response": "ANSWER: Private Education Student Financial Assistance\nSOURCE: private-school-p17"}
+{"key": "c84797de1588ff4e02ec756396b76c381026cf320b329889340cb6a9757b0368", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9f09eeb399941004b5b09cbf12570011f8f7ebd1d396a54cf139770fa0470eb8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "68c5b1ed12ae6787c51406be9fdb73898cde3a38f9fa848987a19363ca3934a3", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f04dc73b81f843f9f0e06685c6fd1c9deb9291dbdeffb1cda0a15f04d355c198", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5d2ed0c84e927610724ec951f52aa45a177a402abc537d0cecc22308a7ad611d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5beb1313f381605260782342f21cfb71619144a6a7bc7f351d0c66663b325cb9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "4fb61f5f3389f13316655a41ed83fcb8965ec3ffa6caa5205afb7ec3f71eb844", "response": "ANSWER: Transcendentalist Unitarian convictions\nSOURCE: harvard-university-p7"}
+{"key": "69f4fcd859a1ed50d0f496ad114e179af9db37fbb14ff6693cc45dc8f462c800", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "46600a69a56f4329288bb3cac98818a7049d3575346fa3551a54fc7c75e9ca7f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c6b75e95b70f8b691fc5c6bb81aa9d6b35f117aabebc582123513d56c18e3a9e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "7642f6019dc4cdebe9a0d4aa8dc44f554da337cd892ab884918b9804415806f7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "afebfcf48673e830cdd9e6ab3af97a14f6f4e47cab69c0f1ff2742a119f4f005", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3038da1f233972058699a6a51437b5d1ff3b32ec964dd6d7c994e5106df799b8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5ce78c2a95d73068b4b139b74412fc269573cf4a17c65a59836516bc84e4d78b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "027370d97d0ac94fc09c13eaca65be85ab3a74e746e88bc3162a1c823919e7e2", "response": "ANSWER: the school, but surrounding community\nSOURCE: harvard-university-p12"}
+{"key": "f12c6ca89b3309ed785fdca3f0acb73a35a9bbe1044b738227b6e4b46bae6a29", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e47a71ed035773a7350130b601845630eef373cdcfffb966d7e704db1c5a72b7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8caa98eb1cdeb393fa242af012ccec73af8d053a85f9d5086ed85df7d9063b1e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "18c6c070d8bc3d9b9e6a9bf3807ab0e62131b57ea8d4fb2f6618501d05cf3d07", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "ce0f6d6201a7e74da96033ac3983bf823fbed77c9f01bea3a9d4a4ca1c4c574c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a11402f19d1ca00a6e21fb19fd2513fd2daefc4f696c354c241497da8ba30020", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "78b1f59198c591ece8514a1635e1869511584b6545fa290ac98c31a30d95c188", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2cc909f0844cdad2ae180ef9f97bfe9c5e1dc1041bf234dcbc78a4280b236749", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f7e036bc510991d6afe3b96e1b980bb5db934e33b303f0000f302e7d68f88e3c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "44cfa73d509ff39b369199b86e33b9e1275b85989237361390a1d77aa7e294af", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3ffd9fe5d8e17139d6e8d5b30c5bc4f7d085451bfccc4243c2e795407ac9cea1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "19754f4c4c9d4d9e1e61deac70c210f819ac14716ae5ec8a4daa4741fad29ba8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "21d68e48dbb27b962cca240f454abd94ad09ece38dd7cbfd393db4c96739a4c4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a2c30a76bcbfb1bd90e954708875c13dc17e9365baf2700225799008ba5cb9f5", "response": "ANSWER: Goldbach's conjecture\nSOURCE: prime-number-p18"}
+{"key": "8ea5785652c65a48445cc99bc9bb4f46a29ceba09739d2bd5767fcbfe9cf2bb2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "08ca440c7ae5f3b67ed74ad7c7782f629dceba631abed2df05250b8c64c8a8c5", "response": "ANSWER: 2\nSOURCE: prime-number-p4"}
+{"key": "6a7de50f5aafdd65bbfb57040cda5cc97c8019f07a7d36e9057e733d59da9ef8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "7fa0e0281b25f097686d9d2d49afbe7c98fa8f8659e4a4f79303e07aa77dfe3a", "response": "ANSWER: deterministic algorithms\nSOURCE: prime-number-p10"}
+{"key": "f148b9a0b2b20fbc30d57b0bb09c459eaf026870aa755be4c9bf20b39d64c4ad", "response": "ANSWER: Baillie-PSW\nSOURCE: prime-number-p11"}
+{"key": "455ac4322e93e09c27211bcf10334b4644bec6f815afd6e7db03cf28438a2cfc", "response": "ANSWER: distributed computing\nSOURCE: prime-number-p13"}
+{"key": "8e3c271272bb43219cd4f6fc8d7f40f1ee16d4d445d2aeb695b0fa3f5e2f9496", "response": "ANSWER: [256kn + 1, 256k(n + 1) − 1]\nSOURCE: prime-number-p13"}
+{"key": "016027e0d65d8355e79c480edfa9c570a2f4ef312f26b23dea3740d085642c92", "response": "ANSWER: floor function\nSOURCE: prime-number-p14"}
+{"key": "6a4d9662409f091218e28c3b009e50d6af894377b24c25be6ae00cd8b70a8a9d", "response": "ANSWER: their greatest common divisor is one\nSOURCE: prime-number-p15"}
+{"key": "6a2b90b934647cc5cfb447356e8e23fc4b5f06101bbfbfde38d55be4b722426f", "response": "ANSWER: finite value\nSOURCE: prime-number-p16"}
+{"key": "3feaf205b011af4fed5b8caf42b7f3a21312afb69a545a04110713582e43b85b", "response": "ANSWER: random noise\nSOURCE: prime-number-p17"}
+{"key": "66f16d68be87256e7961bbf8985c409c8d2c99843cb8a6e6a1313dee1450e118", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9a2792bfda171b48920e7f6e423df7c0374cdf23719cffac12ac16693d6f272f", "response": "ANSWER: 1970s\nSOURCE: prime-number-p20"}
+{"key": "7691df5563f2579632b58d72575cc779adb49b4ac252b9aaac6fd1fa865e30bb", "response": "ANSWER: 512-bit\nSOURCE: prime-number-p22"}
+{"key": "79d78d159a64efb3f0fc9d7a63b031d984cf45d41d3e3bda5a1b727a2e3fd2e0", "response": "ANSWER: 17\nSOURCE: prime-number-p23"}
+{"key": "36a363359ff3113bb8528a562526cf456ac217a647db079cfcdfa8bf26e859b5", "response": "ANSWER: prime number intervals between emergences make it very difficult for predators to evolve that could specialize as predators on Magicicadas\nSOURCE: prime-number-p23"}
+{"key": "c9cd5ce18b4061680ff954f1bdc862db5c3a177c421a124a72725072b8ed5e3f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "75d951eea0f7e580933cbc08386164e9d8aae4b8e4344cedc02d4be84b559e02", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "eb80238c9525002f3763441f0d4b69d046780d86e087fe9de845ca3db7e8f591", "response": "ANSWER: 4k + 3\nSOURCE: prime-number-p26"}
+{"key": "9c29500fc2de2fc973fed585f08d6e7f8eacedc3cedc04a79fc94a52fe6247b6", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "d5476ddd825a5556f15c55ed6bd55bd2fea5cbebdd4ad00d19e95e182c1a529d", "response": "ANSWER: Noetherian commutative ring\nSOURCE: prime-number-p27"}
+{"key": "bfb157e11d4fdd4418e35644aa74d0af4eaa52d3172a2debc1b975d8b07f91cc", "response": "ANSWER: absolute value\nSOURCE: prime-number-p29"}
+{"key": "3cb78fc5cb858bd157c3866ea2a512d626485f0b9479029a185fb6d33fb45406", "response": "ANSWER: this norm\nSOURCE: prime-number-p29"}
+{"key": "2803bb87ca5ef4166305f96cc5590c4e795b24836d00a5484dd813cb79a1db32", "response": "ANSWER: revolution or invasion\nSOURCE: islamism-p0"}
+{"key": "69aed991d1c4e38bc7f59cebb1611314ddbc654af987904bf8372e2944d505da", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "959dcdb767936697c02b556de55dba10ecb3852c64ad0acd9666431b60115d28", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "51ab7faed7959c73a9c061e0b32e9a4a47f1a025abfdc97e39d9b62216899d5e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "68d54f3ec1738e86360f91992b318ed86c2fa2220aa7deb94935f19a7e593e4c", "response": "ANSWER: housing assistance\nSOURCE: islamism-p8"}
+{"key": "13c66ffe96e1845fe67e8e050e21124074d8c22d288667bee29b9cd7a4e45831", "response": "ANSWER: incompetent, inefficient, or neglectful governments\nSOURCE: islamism-p8"}
+{"key": "60eca7ba53d43a594cd75bd537225dc6148a87dfbc25cdf6dd44028be70907b8", "response": "ANSWER: rhetoric\nSOURCE: islamism-p8"}
+{"key": "4ca5bf0d60e960b51d7b666435134332e0b1a1b6cc8bf647c0fb66d90971bdd5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "62a33bd561eb5cd6d5fdc03983649188319fbf2ab69c3394bb45c364b1cdef41", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "72b77b3e3790b77bfabac4dad96b5d133844cc3497307b433008e21231e63f84", "response": "ANSWER: Sharia\nSOURCE: islamism-p12"}
+{"key": "eabbe4738155ff830dcdb12ec6e47398df7072550dc70f042978ba1beededfd8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8555d5307b3f25f89cc274c71faedefc9e4a67253634ebf0b395bfd2a62a1edb", "response": "ANSWER: ideological father\nSOURCE: islamism-p17"}
+{"key": "b915ef75779fe433f50abe987a52fec9ebfa703bd66e28ce2fd33d3e8c27f0d5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3a84250ee25a2cda662d51adaf2d7793abbb22623fafdf86ef0bbe3e60dd16bd", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f23d7da683a03fd8281bb53e0b11df76606ac1490a7755b6e34b941c61ab3063", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "578d76c2b3cb637cba1d398af156e353cb1c33affb957081ebf1023403d82e5d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "d4b623691b3a36761953dd6e487f1ad6580472891fcb4b54bf830d10b68c2406", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "d861c15ec08fe59f766adf0f7a64aa9e57ab30f7efc98abcf5e6dd93e0cc41e3", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "263280c359d085b9e43dc84af40649ade890d7e48ebc6308aa3850f361e93d45", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "68eabcf42333fd1819fab517471d577000653f1adefa72af4068b7eac77158a4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "0ed07d17fb391792eb892d10771e40439e9ba2316fbf6a24fbb99c28815ab84d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "ea9580eb0fc67b4b4d4efdea1f0354a82e7cf0a6cf0ad9acdd68e61eb989d973", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "787e37c41fbd6d155fc65ed36fa576f31ff9148d1410f839b83d8b92093e0940", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "90fd24d79554d7ca01134ffb545254800c09a16067bc9f3959e3f18f050e422c", "response": "ANSWER: Oxygen\nSOURCE: oxygen-p0"}
+{"key": "7f5b334f8a25a2c4ef3efe601222e99641db13cc6af6040ff770ac388146df8a", "response": "ANSWER: 1773 or earlier\nSOURCE: oxygen-p11"}
+{"key": "f72c6ee5f1401de6452aeb012c16eaf9840763673893e0bc189e04908745b868", "response": "ANSWER: Oxygen\nSOURCE: oxygen-p19"}
+{"key": "b9512b226bd0ee5c2eb1eab13da86b83e610575c6324dc9d4f7ca859224108b9", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "3c49e75df30dae812e203142bf3b80829431940b6af7c901b9c321355de9a682", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "40451861a764bba2d7f2965e0cfd2648ffb87a592d1ac7187790eea7041fda94", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a4dc92d4b3f99fe956ac6092ace202b8638c28d65cd1c7649aefe0b5cd3f31ff", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6c62a68afa2620ded666d4a10179d07bb22bf62e46c9f9efe4aa22f8250d7ed7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "049fce2ad3a41053a1bb5b3ce4be2f60c1442c538254ed340d096c970f971c46", "response": "ANSWER: zeolite bed\nSOURCE: oxygen-p30"}
+{"key": "30fd2bdb1279e544b858d783ade11ee41c907633a5b25aa32ce8a032662dc6c3", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c57243f2b29aee3b7ea2691549edadab0c781fe7b2fd08495255c7d55ef1a644", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "fb2edfe47f9bd6ae1b925bc0c94229611034fa145a20961bb16c6e7639921885", "response": "ANSWER: molecular oxygen and hydrogen\nSOURCE: oxygen-p31"}
+{"key": "974edbd8d6e9df43aa86aa8424c32ddf937e22f5f5a03f6c371bcc1eec5bed8f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "463e4b71f8898e1ca17889517b03c99c53acf3d9b815e45845b85cc3d9e6b7e5", "response": "ANSWER: placebo effect\nSOURCE: oxygen-p32"}
+{"key": "b36a7fe67ecdc23a4936344950cc307a636c55ddc6438afee5a9d2c1ea318711", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "7d268255798283d3dc10caa0029fa98ba1dcb0455d4d94dbe5e71c618ff614e4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8da7a852cd7043b70fee981110dc99a0eba1f510d2c980f78adf6f228c9075bf", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "59883dd794d7a191c81a6e5e89534667608375b20e7308b64fb6eb639c462521", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c7b1f95646f22a7a827263d60e0e3398b5355ac62e43bddf67c6aedca87f1f14", "response": "ANSWER: Oxygen\nSOURCE: oxygen-p39"}
+{"key": "cc35d8fe2a511b2f9f2f582b7bdb395bd5fabeee6b65ea3c4a5918379c40ecce", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "96961934870d9a579ca976fe043a39d07191c711ad5aabd897f6d4974c7d1604", "response": "ANSWER: proceed rapidly and energetically\nSOURCE: oxygen-p6"}
+{"key": "635f9369875f01d1a87ff8ea7c55337cff6e44c119969b81e227f33a299b7b0a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "777437da4cc902615fe5d115904ba6bd7d19273d254f9a027dca5f6eaefda824", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "4c70c37915434ba6fcf517354700754bd130f97ac8f99132adc42dbe4b5a7743", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a50f158fddaa75db29d228dbb2e0d626dc3d91f58a00b0fbac990896e23338c6", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e9327b8bfa9cfd7cf0cea8a1e75a785f3d127a143f2d46d39940715ed0ebce78", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f0e65c4dc087263d45fe063bb1bcca0b33b2840527552db07a91e0d78c986c02", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "165575593eae748e9d41dd3b6780231af7e61e9503baa7f073176e11c93bc01c", "response": "ANSWER: conservation of momentum\nSOURCE: force-p20"}
+{"key": "39b1534e553b34da327ae57dc8a5dc539315240f872ac065169fb771cf36af0e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "59ad102425b19263faf1a61cecd6336bbb3c46cf93f213b757267be089f9dce1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "dd9c5e5ec5ea45ad50112b05cc6665e886669d994e1a9186cc9739aa8d9175e1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a73bbaebe46d22ea789e1041791ccfb35bc4917df1378c83d8b851f0bf252b8d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8b36de5676865b2cca44e02669107decc6c61690a455b0f326bd796b146f8976", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5439c86d939fda2fe9b29330da000ec0d28e5321c6d827b91bb2c97328d202a3", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "212cc897edc0818a6ce779bf2b082f1c526a1cf7106f154baaf9a746b678e8e8", "response": "ANSWER: Lorelei\nSOURCE: rhine-p14"}
+{"key": "aa2c87843097aba5fa5b88838d0d3730345ff16c42bf3fa2949fd2939dd76902", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "0878b1dce75acbcaee944605c37f3c230be70f9fafd84ea4e1e9330e769db405", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2832eced0eb4a5d055637a605f77f4d1a1f40b5de9b51876b26f0aeacb344831", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "73393158aa44c94fcd84807036ad97cb96f69d33560c3321b91c2791a5fa1ab7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "eba60089bb908fd5f5049047aa3f94d5152a0ac492ad69466c6b7aa2c0d1fd73", "response": "ANSWER: ice ages\nSOURCE: rhine-p18"}
+{"key": "fc35ed21d8284a03425bdb63d7cbcf1d7ee168c903dd37b357fd19e8f0f7b06f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9edec76ccba0215e297c9cddd50809a46505e0c995f1b535de4694afb8ee4252", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "19e1441cdf4cc9e1e32c574fd005e1f24c0387732ce8cd49c606d00fba797d96", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "791bd3ea3ac3fa4cf1b6284036ffb538e02f8a7118700b569dba114a585d2817", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "1824ce787417baa7e8604cd212fce8bfaf99fee993ed3473b68703435626b369", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c98d56526acb31485399a3ac68d7e1767f2270b7cd81d4a5bc0e18413821e46b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "026691b4ab035b1c90d62d566360690230cff17be030cbe82aeebab5cc46864b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "ab4a187ea18ca44d303da4499f0dc2fd1c1f7fcfc6c6cd2239a195c1798e8d8f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "206cfd3005c5d1888b5e7f3ad21c263c8baaad16b8c793af7019383a4a1960e8", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "82833c3962cff43213c2f1bfacc2279e67d2731768e5bd03e735ac061b7c9347", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "2ab1464ceadd73d81b8bd893075a9d19a5d77e8169159a7bb4c8a809d0c8fafe", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "bf2bda976b26c8be7901cf98d1810db60c4bae72ab6baf2aebad01647955099c", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "dc3458b60adf1c84da367416479665d0f94fc0cc3e3056c3be81256433151c0b", "response": "ANSWER: four legions\nSOURCE: rhine-p37"}
+{"key": "2bcaf24560fef454f5c0ab26e4080f5f2b8d2b797a5262b950f333ef9c52e5da", "response": "ANSWER: XXI\nSOURCE: rhine-p37"}
+{"key": "9104701178cc49ffc980908fa32f4637e63c19246dfa5263c9a63a8f6d3b633f", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c489a3c0915d45bc951a131f742fef816faeaaf9383266497eb168a392b7f58a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "6cc15350b6666f918db5e390a2fdfa8b2f2595bf388d94c560e8064e462189a1", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "12c307c7355c2cb5156eeec7c46f59ea87285800f6f5229e868033d0b1522f1a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e7413cdff42cc7623c8712b478580cf16a5992c2e423257c3cc0701b0bb55666", "response": "ANSWER: steam\nSOURCE: steam-engine-p0"}
+{"key": "fad74a0339044b29e6c7a1e1221ec73016323d3a0d3aa6ffd5a655e1af523fc2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "681f6ddfc52a789c42c67e0518789294bb301ccffa8d4ab2aeb294d835b916ec", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "1906482eb9de435692570a91e650eaf98ddf1444c7f3db39c1f18eae8d34aa73", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f821bd42688b62f1bdd22b05c0980b21043aa6c7b7fbcfc802966e1560acc71d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "66005daf823357367ea5eab3a176f0cb45ed2426ae93efeed0f86a430c8ef336", "response": "ANSWER: Newcomen\nSOURCE: steam-engine-p37"}
+{"key": "852fa588954b2ab049cdeb960c7ced9abaff20f41676702858e1a8910ab84511", "response": "ANSWER: Matthew Murray\nSOURCE: steam-engine-p20"}
+{"key": "f6b8cad0a27388c69037aba2d7fc3e63b3fb5890bf48a6f31a1971795964f3cd", "response": "ANSWER: solar energy\nSOURCE: steam-engine-p11"}
+{"key": "874bd67eca14d5e41d1b54d431b9a997bfcf19e9217827f0363eaeecf188c7e2", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "68b8247a8fa134c87b7c53f30fbf87c15bacf8e6976e10ae5a2dcf54e4d67d72", "response": "ANSWER: Charles Richard\nSOURCE: steam-engine-p12"}
+{"key": "e883f844cbf804b3dd786cdeadef1e41f39ec5ba90b3fab620490d654a763715", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "22f950474320ff2f0cb81485c8a890801a57c547d8fa78e19258bbf47636c2cf", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5a7e24c48abf2c530abe45c2c98013c544be51b52440c6b5d545d5a2eea51b33", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "a1b95649b65863cc1c082e5721a0166b8186f80546baf5fbb2cc850d611c3ab7", "response": "ANSWER: drive shaft\nSOURCE: steam-engine-p34"}
+{"key": "ae6722bfc886fa09681af69c21a13dedad0a8b8bb55169dd74c92d22f55829f8", "response": "ANSWER: gas turbines\nSOURCE: steam-engine-p22"}
+{"key": "6bab525fe9b8e8ee8f700012f1a882cea354545622830b6135dd5f4dbbd4ac43", "response": "ANSWER: oscillating cylinder steam engine\nSOURCE: steam-engine-p16"}
+{"key": "785e7ea8d1260e6cd05db3c833bb221b62a543817f5afc9054225aee6c68fe3b", "response": "ANSWER: Lead fusible plugs\nSOURCE: steam-engine-p6"}
+{"key": "e5c0b78b49af45ad34b491e336dd71e59f01ba5393dc187aafa0110a916879d4", "response": "ANSWER: the lead melts\nSOURCE: steam-engine-p6"}
+{"key": "ff13b04650f0a0d2a9d51c08b3e78f266aeb35e4cd06662dc989af0655d70339", "response": "ANSWER: late 19th century\nSOURCE: steam-engine-p4"}
+{"key": "af08d96248786d50872666bb3d1506b6b7fbfd2f3b8ac0b702c93ce9b82e927a", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "527f4c6497f54621d6d0490479a945cb6e56238667228dc515e3045e21c78ccd", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f2ed0820b27d6345ad29d527944b0871e19e549dc611b144691b5428d71fe79e", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "cdef1f3efc15b7536095eb63f5e01b3bbeaa8c5265db8d70ccd3123cddd64eb4", "response": "ANSWER: 1413\nSOURCE: warsaw-p5"}
+{"key": "c51cee39f6849c4af8ebc4cf102a7386d621d3c8084ed152625da5fd8dd861c4", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "1f4b7f352777511cd3a4db9e09914ac90631f0991d905c1316627451e54f4bb3", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5fff508c4ef1a5f11c8bf57c1ee0b595932e32e61326ff18189b089711c73b38", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "74b604cbadba97a7874f9139f26df68115f55393700ea470708e1b32050d6f18", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "d86aeace36ab85749a34c0935e540d050dd72f80819222db4f0971e7df3c8e4a", "response": "ANSWER: 60\nSOURCE: warsaw-p29"}
+{"key": "e6aa396ee5c152b6ac4ad1bf369a77438ee0de8ddc716e4460873a0f9e5853c5", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "f16abfe92f5b361ebf234367c094f73715f4f1ab6f4da7c55ed9983d3b7fb807", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8a7fb82e6ff268eb370616f86abdc3f410013c5af8a216f9495f45695dab7c99", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "8692bad81513a77ea32afd2a15423fdb19b71f0e2ba64709d335aa1ee5ea128d", "response": "ANSWER: Irena Bajerska\nSOURCE: warsaw-p35"}
+{"key": "d953034e42842e80c7456a00ff90d1253292e7de9eef417efdbb33de228989db", "response": "ANSWER: more than 10,000 m2\nSOURCE: warsaw-p35"}
+{"key": "c074fa84df1eb04bd67b54c63ae8b38f9a5efc20793ddebc8965554b3d3f1800", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "9715f13c1880a9e5fb0f73477bacfb178e9be9b437831cf0a488f920a34ab4f6", "response": "ANSWER: events and festivals\nSOURCE: warsaw-p38"}
+{"key": "2818b7127179eb2a6b943a9ef9dc090240d9a082f45018e1ed1b42ab52bc6409", "response": "ANSWER: when they would be married, and to whom\nSOURCE: warsaw-p40"}
+{"key": "f6f2657c46dc4068d9b6e6af0fe37af9fc296b4761de22f07105a6630647c3b6", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "e91cc5e4b560e38d472241ac50186e1743e36b0b74256227dd123f66fab7415b", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "5ed7cba96da67529e18c30206b31ac9a8e05d753a8c38454332515c02cfaa70d", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "b65636ce5109150acf87f325c4f859da46e341d06ebb27fd552723d9a5de3734", "response": "ANSWER: 19 April 1943\nSOURCE: warsaw-p9"}
+{"key": "f5a0db78f87feff800fd6ac1bc4090c52904ace20a1a7e6a71a706b110a5dedd", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "db55e1455b98acee6186ef1637eb94fafa3eff60f3364cf94e4f37f062c358c7", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
+{"key": "c07d4c1fd89f1bcce72e68ccd3803c88f39a648b8c3d9ca132421bbb91ad7a65", "response": "ANSWER: UNANSWERABLE\nSOURCE: none"}
