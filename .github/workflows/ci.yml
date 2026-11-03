@@ -45,6 +45,17 @@ jobs:
         run: |
           evalkit leaderboard --corpus datasets/squad-v2-sample/corpus.jsonl             --golden datasets/squad-v2-sample/golden.jsonl --out results/squad-v2
           { echo; echo "### Leaderboard: SQuAD v2.0 sample"; echo; cat results/squad-v2/leaderboard.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: LLM-backed system, replayed from the committed response cache
+        env:
+          EVALKIT_LLM_OFFLINE: "1"
+        run: |
+          evalkit run --system evalkit.llm:make --corpus datasets/squad-v2-sample/corpus.jsonl             --golden datasets/squad-v2-sample/golden.jsonl --out results/llm-squad
+          evalkit run --system bm25-extractive --corpus datasets/squad-v2-sample/corpus.jsonl             --golden datasets/squad-v2-sample/golden.jsonl --out results/bm25-squad > /dev/null
+          {
+            echo; echo "### LLM-backed RAG on the SQuAD v2.0 sample (replayed from cache)"; echo
+            cat results/llm-squad/evalkit-llm-make.md; echo
+            python scripts/error_breakdown.py results/bm25-squad/bm25-extractive.json               results/llm-squad/evalkit-llm-make.json
+          } | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Regression gate against the committed baseline
         run: |
           set +e
