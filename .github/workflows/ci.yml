@@ -41,6 +41,10 @@ jobs:
         run: |
           evalkit leaderboard --out results
           { echo "### Leaderboard"; echo; cat results/leaderboard.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Leaderboard on the SQuAD v2.0 sample
+        run: |
+          evalkit leaderboard --corpus datasets/squad-v2-sample/corpus.jsonl             --golden datasets/squad-v2-sample/golden.jsonl --out results/squad-v2
+          { echo; echo "### Leaderboard: SQuAD v2.0 sample"; echo; cat results/squad-v2/leaderboard.md; } >> "$GITHUB_STEP_SUMMARY"
       - name: Regression gate against the committed baseline
         run: |
           set +e
